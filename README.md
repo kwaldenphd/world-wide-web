@@ -45,7 +45,8 @@ HTML is all about sharing, storing, and accessing information. HTML provides the
 ```HTML
 <html>
 <body>Hello World</body>
-</html>```
+</html>
+```
 
 This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
    
@@ -67,7 +68,7 @@ HTML is pretty forgiving, but other languages are not, so it’s best to practic
 
 Let’s make a few modifications to the Hello World file that will make it valid. Open Geany and open a new file from File > New (with Template). Select “file.html.” 
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_1.png?raw=true" /></a></p>
 
 If you compare this blank template to the structure of an html document that you read about from the WC3 this week, you will find all of the required elements in this template. 
 
@@ -83,7 +84,7 @@ Next, in green we have the document type declaration beginning with `<!DOCTYPE`.
 
 The next piece, `-//W3C//DTD XHTML 1.0 Strict//EN` is the version declaration. 
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_2.png?raw=true" /></a></p>
 
 In this case we are using XHTML. The different versions of HTML were listed in your WC3 reading this week:
 
@@ -105,7 +106,7 @@ Also note here that the document language is declared as English with the “en�
 
 <blockquote>XHTML 1.0 Documentation http://www.w3.org/TR/xhtml1/</blockquote>
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true" /></a></p>
 
 What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
 
@@ -127,7 +128,7 @@ As the diagram illustrates, this data is not presented in the browser. This is t
 
 The `<head>` of the document is reserved for metadata, but also includes the `<title>` of the page which is represented in the tabs in some web browsers. 
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_4.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_4.png?raw=true" /></a></p>
 
 Replace “untitled” between the `<title>` tags to give your document a new title.
 
@@ -149,11 +150,11 @@ Notice two things:
 
 2- Geany has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. IDEs like Geany provide this function to help you prevent errors in your code and create valid documents.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
 
 Go ahead and enter some content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. Next add a `<p>` tag and type some text. `<p>` tags are preformatted as paragraphs with padding between paragraphs.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
 
 Geany has another function that will be helpful as we develop our websites. Press F5 and your html document will display in the web browser.
 
@@ -169,7 +170,7 @@ Save the file in a dedicated new folder for this project, and call it `index.htm
 
 # Building Additional Web Pages
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_7.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_7.jpg?raw=true" /></a></p>
 
 What we have just created is a single web page. 
 
@@ -181,11 +182,11 @@ Select file.html.
 
 Save this file as `page2.html` in the same folder where you have just saved `index.html`.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_8.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_8.jpg?raw=true" /></a></p>
 
 Now add some content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_9.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_9.jpg?raw=true" /></a></p>
 
 # Creating Links in HTML
 
@@ -199,7 +200,7 @@ Below your paragraph tag on the `index.html` page add the line `<a href=”page2
 
 <blockquote>More details on the <code><a href></code> tag at w3school: http://www.w3schools.com/TAGS/att_a_href.asp</blockquote>
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true" /></a></p>
 
 Go ahead an open index.html by pressing F5 or opening it in your browser to see what our new link looks like. 
 
@@ -227,13 +228,13 @@ The `alt` is for the alternative text or the text that is displayed for the visu
 
 <blockquote>More info on the <code><img></code> tag at w3school:  http://www.w3schools.com/tags/tag_img.asp</blockquote>
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_11.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_11.jpg?raw=true" /></a></p>
 
 On your `index.html` page, add the line `<img src=”imagefilename” alt=Description of image>`.
 
 Be sure to use your image file name in place of the italicized text above. 
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true" /></a></p>
 
 View the page in your browser to see if the image has loaded correctly.
 
@@ -249,11 +250,11 @@ We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates p
 
 But, what if we want to add color or change the font on our page? 
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true" /></a></p>
 
 We can add style to each individual element within the page like so.
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_14.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_14.png?raw=true" /></a></p>
 
 Here you can see that I’ve used the style attribute for the `<h1>` heading to change the text color to blue and center the text. 
 
@@ -287,7 +288,7 @@ Open a new file in Geany. Geany doesn’t have a standard template for CSS, but 
 
 So, open a new file and save it in the same folder as your other two .html files with the name `mystyle.css.`
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
 
 The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
 
@@ -313,7 +314,7 @@ Each HTML page must reference the CSS to apply it to the page.
 
 We create this reference in the `<head>` of the HTML document with the other metadata. 
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_16.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_16.jpg?raw=true" /></a></p>
 
 In the `<head>` of `index.html` add the reference `<link rel=”stylesheet” type=”text/css” href=”mystyle.css”>`.
 
@@ -327,7 +328,7 @@ This line can appear anywhere between the `<head>` and `</head>`.
 
 <blockquote>More info on the `<link rel>` tag at w3school: http://www.w3schools.com/tags/att_link_rel.asp</blockquote>  
 
-[IMAGE]
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
 
 Open the `index.html` file in a browser to see the updated CSS.
 
