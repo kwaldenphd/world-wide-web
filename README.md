@@ -16,13 +16,9 @@ By the end of this lab you will be able to:
 
 We are going to install Geany at the command line. This will give you some more practice for a future lab when we build a server on our Pi.
 
-Connect your Pi to the Internet either through Wi-Fi or the Ethernet cable
+Connect your Pi to the Internet either through Wi-Fi or the Ethernet cable. Open a Terminal session (If you don’t remember how, revisit the Project 1 instructions)
 
-Open a Terminal session (If you don’t remember how, revisit the Project 1 instructions)
-
-Install Geany IDE at the command line using `sudo apt-get install geany`
-
-After the installation is complete you will find Geany in Menu > Programming
+Install Geany IDE at the command line using `sudo apt-get install geany`. After the installation is complete you will find Geany in Menu > Programming
 
 <blockquote>Geany documentation http://www.geany.org</blockquote>
 
@@ -50,17 +46,15 @@ HTML is all about sharing, storing, and accessing information. HTML provides the
 
 This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
    
-Download the hello_world.html file and open it with the web browser on your Pi. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
+Download the `hello_world.html` file and open it with the web browser on your Pi. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
 
-helloworld.html contains the minimum requirements for an HTML document. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. 
+`helloworld.html` contains the minimum requirements for an HTML document. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. 
 
 We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
 
 Click on “Validate by Direct Input” and copy and paste the code above into the validator and click <check>. You should receive a few errors. 
   
-While our browser was able to interpret this code in the last project, this document does not follow all of the rules of the current version of HTML. 
-
-HTML is pretty forgiving, but other languages are not, so it’s best to practice following all of the rules from the start.
+While our browser was able to interpret this code in the last project, this document does not follow all of the rules of the current version of HTML. HTML is pretty forgiving, but other languages are not, so it’s best to practice following all of the rules from the start.
 
 <blockquote>Q2: Try to interpret a few of these errors in your own words. In particular, how would you explain the warnings related to character encoding?</blockquote>
 
@@ -86,13 +80,11 @@ The next piece, `-//W3C//DTD XHTML 1.0 Strict//EN` is the version declaration.
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_2.png?raw=true" /></a></p>
 
-In this case we are using XHTML. The different versions of HTML were listed in your WC3 reading this week:
+In this case we are using XHTML. Learn more about the different versions of HTML: https://www.w3schools.com/html/html_intro.asp.
 
 The final piece of this declaration is the URL for the DTD or Document Type Definition: http://www.w3.org/TR/xhtml1/dtds.html. 
 
-This is the data structure or the rules for this version of HTML. 
-
-Each version will have a different DTD defining the structure and all of the elements and attributes that can be used. We will talk more about DTDs in the XML lab.
+This is the data structure or the rules for this version of HTML. Each version will have a different DTD defining the structure and all of the elements and attributes that can be used. We will talk more about DTDs in the XML lab.
 
 <blockquote>DTD for XHTML 1.0 http://www.w3.org/TR/xhtml1/dtds.html</blockquote>
 
@@ -110,15 +102,11 @@ Also note here that the document language is declared as English with the “en�
 
 What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
 
-Geany has constructed a blank template for us to work from. 
-
-This html document is well- formed and valid. 
+Geany has constructed a blank template for us to work from. This html document is well- formed and valid. 
 
 We can test this by copying and pasting our file into the HTML Validator. (Go ahead and give it a try https://validator.w3.org). 
 
-This is one of the advantages to using and IDE for website development. 
-
-As you will see in a few moments, Geany has a few other features that will help us to create clean, well-formed, and valid HTML documents.
+This is one of the advantages to using and IDE for website development. As you will see in a few moments, Geany has a few other features that will help us to create clean, well-formed, and valid HTML documents.
 
 # Adding Content to `Index.html`
 
@@ -134,9 +122,7 @@ Replace “untitled” between the `<title>` tags to give your document a new ti
 
 <blockquote>Q3: Between the <code><head></code> tags, there are also a few <code><meta></code> tags. Use the W3C site to translate this information in your notebook.</blockquote>
   
-Now, let’s modify the body. 
-
-This is where the content that we will see in the web browser is entered. 
+Now, let’s modify the body. This is where the content that we will see in the web browser is entered. 
 
 HTML uses a number of different formatting tags. You can use the W3C site to browse through all of the different options. 
 
@@ -158,9 +144,7 @@ Go ahead and enter some content between the `<h1>` tags. `<h1>` is preformatted 
 
 Geany has another function that will be helpful as we develop our websites. Press F5 and your html document will display in the web browser.
 
-At any time you can check the way that your code will render by pressing the F5 key. 
-
-Go ahead and save the file by selecting Save As from the File menu. 
+At any time you can check the way that your code will render by pressing the F5 key. Go ahead and save the file by selecting Save As from the File menu. 
 
 <blockquote>You can also press <code>Control + S</code> to save file updates.</blockquote>
 
@@ -172,15 +156,11 @@ Save the file in a dedicated new folder for this project, and call it `index.htm
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_7.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_7.jpg?raw=true" /></a></p>
 
-What we have just created is a single web page. 
-
-If we want to build a web site, we have to link this page to additional pages of content. 
+What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
 Without closing the `index.html` file, let’s create a second file by clicking on down arrow next to the + icon in the upper left corner of the Geany window. 
 
-Select file.html. 
-
-Save this file as `page2.html` in the same folder where you have just saved `index.html`.
+Select `file.html`. Save this file as `page2.html` in the same folder where you have just saved `index.html`.
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_8.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_8.jpg?raw=true" /></a></p>
 
@@ -194,7 +174,7 @@ Now, let’s add a link to the second page on our index.html page.
 
 We add links with the `<a href>` tag. This tag allows us to link pages in the same website and link out to pages that exist on external websites.
 
-The tag syntax is as follows: <a href=”URL to page”>Text that you would like to appear</a>. 
+The tag syntax is as follows: `<a href=”URL to page”>`Text that you would like to appear`</a>`. 
   
 Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
 
@@ -204,9 +184,7 @@ Below your paragraph tag on the `index.html` page add the line `<a href=”page2
 
 Go ahead an open index.html by pressing F5 or opening it in your browser to see what our new link looks like. 
 
-When you click on “Link to page 2” your `page2.html` file should open. 
-
-In this case, our URL to the page in our `<a href>` tags is just the name of new page we created. 
+When you click on “Link to page 2” your `page2.html` file should open. In this case, our URL to the page in our `<a href>` tags is just the name of new page we created. 
 
 We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our server (the Pi). 
 
@@ -214,9 +192,7 @@ If we had saved this file to another folder or directory, we would put the file 
 
 # Adding Images in HTML
 
-Let’s add an image to the `index.html` page. 
-
-Find an image that you like on the web and save it to the folder containing your two html documents on your Pi. 
+Let’s add an image to the `index.html` page. Find an image that you like on the web and save it to the folder containing your two html documents on your Pi. 
 
 The `<img>` tag is very similar to the `<a href>` tag that we just used. 
 
@@ -246,9 +222,7 @@ If you read through the w3schools site, you will see that there is so much more 
 
 HTML allows us to add style to our pages internally, or inline. 
 
-We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. 
-
-But, what if we want to add color or change the font on our page? 
+We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true" /></a></p>
 
@@ -270,15 +244,9 @@ Cascading Style Sheets (CSS) provides a more elegant way to add these style attr
 
 As you saw in the demo in your reading (http://www.w3schools.com/css/css_intro.asp) you can take the same page content and change the look and feel with a new CSS. 
 
-For those of you familiar with WordPress, this is how the various “themes” of the sites are managed. 
+For those of you familiar with WordPress, this is how the various “themes” of the sites are managed. These are external CSS because they are files that are separate from the HTML pages. 
 
-These are external CSS because they are files that are separate from the HTML pages.
-
-Let’s create a simple external CSS for our site. 
-
-The CSS is cascading because there is a hierarchy to the way that styles are applied. 
-
-If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. 
+Let’s create a simple external CSS for our site. The CSS is cascading because there is a hierarchy to the way that styles are applied. If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. 
 
 In this way we can override the stylesheet if there is particular content that we would like to style differently.
 
@@ -286,33 +254,21 @@ In this way we can override the stylesheet if there is particular content that w
 
 Open a new file in Geany. Geany doesn’t have a standard template for CSS, but will recognize the file as a CSS after we save the file with the extension. 
 
-So, open a new file and save it in the same folder as your other two .html files with the name `mystyle.css.`
+Open a new file and save it in the same folder as your other two .html files with the name `mystyle.css.`
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
 
 The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
 
-I’ve added a few simple styles for the background, `<h1>`, and `<p>`.
+I’ve added a few simple styles for the background, `<h1>`, and `<p>`. Each tag is defined first `<body>`, `<h1>`, and `<p>` in this example. These are referred to as the selectors. 
 
-Each tag is defined first `<body>`, `<h1>`, and `<p>` in this example. 
+Our style instructions for each tag are enclosed in `{ }`. These are called declarations. 
 
-These are referred to as the selectors. 
-
-Our style instructions for each tag are enclosed in `{ }`. 
-
-These are called declarations. 
-
-We can add as many style declarations as we would like in between the brackets, separating each with a semicolon. 
-
-Each declaration has a property followed by a colon and then a value. 
+We can add as many style declarations as we would like in between the brackets, separating each with a semicolon. Each declaration has a property followed by a colon and then a value. 
 
 It is common practice to place each declaration on a new line and to indent the declarations, but this is only to make the file easier for us to read and edit. The spacing has no impact on how the computer reads and interprets the code.
 
-Now we need to link the CSS to our HTML files. This is called a reference. 
-
-Each HTML page must reference the CSS to apply it to the page. 
-
-We create this reference in the `<head>` of the HTML document with the other metadata. 
+Now we need to link the CSS to our HTML files. This is called a reference. Each HTML page must reference the CSS to apply it to the page. We create this reference in the `<head>` of the HTML document with the other metadata. 
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_16.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_16.jpg?raw=true" /></a></p>
 
@@ -332,9 +288,7 @@ This line can appear anywhere between the `<head>` and `</head>`.
 
 Open the `index.html` file in a browser to see the updated CSS.
 
-However, if you click on the link to `page2.html`, it will look the same as it did before. 
-
-This is because we need to link the stylesheet to each of the pages. 
+However, if you click on the link to `page2.html`, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. 
 
 Add the same `<link rel=”stylesheet” type=”text/css” href=”mystyle.css”>` to `page2.html`. 
 
