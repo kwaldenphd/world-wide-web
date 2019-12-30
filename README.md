@@ -1,5 +1,10 @@
 # HTML and CSS Lab
 
+This tutorial was written by [Lindsay K. Mattock](http://lindsaymattock.net) and adapted by [Katherine Walden](https://github.com/kwaldenphd). 
+
+<a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
+This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
+
 Over the next few weeks we are going to complete a number of programming projects. We are going to start out with two markup languages HTML and XML. As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. We already have several options on our Pi, including the Leaf Pad text editor and Nano at the command line. But, there are other tools that provide additional functions that will help us to work with these languages. Before we start building our HTML pages we are going to install an Integrated Development Environment (IDE) that help us to write and find errors in our HTML. We will also use the IDE for future labs on XML and Python.
 
 <blockquote>Integrated Development Environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion. Some IDEs, such as NetBeans and Eclipse, contain a compiler, interpreter, or both; others, such as SharpDevelop and Lazarus, do not. https://en.wikipedia.org/wiki/Integrated_development_environment</blockquote>
@@ -11,6 +16,10 @@ By the end of this lab you will be able to:
 -	Identify the key features of an IDE
 -	Use the Geany IDE to generate HTML pages
 -	Use the Geany IDE to generate CSS stylesheets to format your HTML pages
+
+## Acknowledgements
+
+This lab is based on the "Project 3: HTML/CSS" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Installing the Geany IDE
 
