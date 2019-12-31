@@ -21,6 +21,21 @@ By the end of this lab you will be able to:
 
 This lab is based on the "Project 3: HTML/CSS" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
+# Table of Contents
+- [Installing the Geany IDE](#installing-the-geany-ide)
+- [What is HTML?](#what-is-html)
+  * [Hello World!](#hello-world)
+- [Creating an HTML File](#creating-an-html-file)
+  * [Adding Content to `Index.html`](#adding-content-to-indexhtml)
+- [Building Additional Web Pages](#building-additional-web-pages)
+- [Creating Links in HTML](#creating-links-in-html)
+- [Adding Images in HTML](#adding-images-in-html)
+- [Using Cascading Style Sheets](#using-cascading-style-sheets)
+  * [Creating and Implementing CSS](#creating-and-implementing-css)
+- [Creating a Website](#creating-a-website)
+- [Endnotes](#endnotes)
+- [Lab Questions](#lab-questions)
+
 # Installing the Geany IDE
 
 1. We are going to install Geany at the command line. This will give you some more practice for a future lab when we build a server on our Pi.
