@@ -305,7 +305,7 @@ We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates p
 
   * The `type` defines the type and `href` contains the URL or location reference for the file.
 
-<blockquote>More info on the <link rel> tag at w3school: http://www.w3schools.com/tags/att_link_rel.asp</blockquote>  
+Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags/att_link_rel.asp
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
 
@@ -359,7 +359,7 @@ Q2: Try to interpret a few of these errors in your own words. In particular, how
 
 Q3: Between the <head> tags, there are also a few <meta> tags. Use the W3C site to translate this information in your notebook.
 
-Q4: Create another link to another HTML page or image, but save that file in a different directory or folder on your computer. How did you have to modify your <a href> to call that file in your webpage? Why?
+Q4: Create another link to another HTML page or image, but save that file in a different directory or folder on your computer. How did you have to modify the HTML to call that file in your webpage? Why?
   
 Q5: Take a look at the HTML Colors page listed above. Do you see anything familiar? Describe the way that RGB and Hexadecimal colors work in your own words.
 
