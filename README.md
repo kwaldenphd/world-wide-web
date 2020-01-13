@@ -201,7 +201,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
   
 48. Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
 
-<blockquote>More details on the <code><a href></code> tag at w3school: http://www.w3schools.com/TAGS/att_a_href.asp</blockquote>
+Learn more about the `<a href>` tag at w3school: http://www.w3schools.com/TAGS/att_a_href.asp</blockquote>
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true" /></a></p>
 
@@ -225,7 +225,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 57. The `alt` is for the alternative text or the text that is displayed for the visually impaired or browsers like lynx that don’t support images. 
 
-<blockquote>More info on the <code><img></code> tag at w3school:  http://www.w3schools.com/tags/tag_img.asp</blockquote>
+Learn more about the `<img>` tag at w3school:  http://www.w3schools.com/tags/tag_img.asp</blockquote>
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_11.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_11.jpg?raw=true" /></a></p>
 
@@ -237,7 +237,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 60. View the page in your browser to see if the image has loaded correctly.
 
-<blockquote>Q4: Create another link to another HTML page or image, but save that file in a different directory or folder on your computer. How did you have to modify your <code><a href></code> to call that file in your webpage? Why?</blockquote>
+<blockquote>Q4: Create another link to another HTML page or image, but save that file in a different directory or folder on your computer. How did you have to modify the HTML to call that file in your webpage? Why?</blockquote>
   
 # Using Cascading Style Sheets (CSS)
 
@@ -305,7 +305,7 @@ We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates p
 
   * The `type` defines the type and `href` contains the URL or location reference for the file.
 
-<blockquote>More info on the `<link rel>` tag at w3school: http://www.w3schools.com/tags/att_link_rel.asp</blockquote>  
+<blockquote>More info on the <link rel> tag at w3school: http://www.w3schools.com/tags/att_link_rel.asp</blockquote>  
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
 
@@ -328,15 +328,12 @@ We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates p
 87. Next, you are going to build a website about these items. 
 
 88. You need to meet the following requirements:
-
-  a. You need a landing page (index.html) that describes the items and provides a brief introduction to your site. For example, if you are presenting books from your favorite author you could provide a brief into to the author here. It doesn’t need to be extensive, but you want to include some content. Your landing page should also include some logo or image.
-
-  b. The landing page (index.html) must also link to three different pages, one for each of the items you have chosen. Each of the item pages must include:
-    i. A short description of the item. You may pull this description from another source (publisher, archives, Wikipedia), just be sure to cite the source and link back to it if it is online.
-    ii. A link to some related source on the web (Wikipedia, a book review or museum exhibit, for example) If you’ve pulled your description from another source, then the link to this source can serve as the link.
-    iii. A representative image.
-
-  c. You also need a CSS for your site. The CSS will be used across all four pages of content to standardize the look and feel of your site.
+  * a. You need a landing page (index.html) that describes the items and provides a brief introduction to your site. For example, if you are presenting books from your favorite author you could provide a brief into to the author here. It doesn’t need to be extensive, but you want to include some content. Your landing page should also include some logo or image.
+  * b. The landing page (index.html) must also link to three different pages, one for each of the items you have chosen. Each of the item pages must include:
+    * i. A short description of the item. You may pull this description from another source (publisher, archives, Wikipedia), just be sure to cite the source and link back to it if it is online.
+    * ii. A link to some related source on the web (Wikipedia, a book review or museum exhibit, for example) If you’ve pulled your description from another source, then the link to this source can serve as the link.
+    * iii. A representative image.
+  * c. You also need a CSS for your site. The CSS will be used across all four pages of content to standardize the look and feel of your site.
 
 89. That’s it. You are free to be as creative as you’d like as long as you meet these requirements.
 
@@ -346,7 +343,7 @@ We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates p
 
 92. Submit the HTML files and relevant CSS as as `.zip` folder on P-Web.
 
-<blockquote>Q6: Have you ever created a website before? Have you used a software like WordPress? How is this process different? If you haven’t reflect on the process of creating a website by working directly with the HTML.</blockquote>
+<blockquote>Q6: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
 # Endnotes
 
@@ -366,7 +363,4 @@ Q4: Create another link to another HTML page or image, but save that file in a d
   
 Q5: Take a look at the HTML Colors page listed above. Do you see anything familiar? Describe the way that RGB and Hexadecimal colors work in your own words.
 
-Q6: Have you ever created a website before? Have you used a software like
-WordPress? How is this process different? If you haven’t reflect on the process of creating a website by working directly with the HTML.
-
-
+Q6: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.
