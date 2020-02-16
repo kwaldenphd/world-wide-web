@@ -30,7 +30,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - [Building Additional Web Pages](#building-additional-web-pages)
 - [Creating Links in HTML](#creating-links-in-html)
 - [Adding Images in HTML](#adding-images-in-html)
-- [Using Cascading Style Sheets](#using-cascading-style-sheets)
+- [Using Cascading Style Sheets](#using-cascading-style-sheets-css)
   * [Creating and Implementing CSS](#creating-and-implementing-css)
 - [Creating a Website](#creating-a-website)
 - [Endnotes](#endnotes)
@@ -52,11 +52,11 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 HTML stands for HyperText Markup Language
 
-“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
+<em>“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
 
 * "Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
 
-* "HTML is a Language, as it has code-words and syntax like any other language.”*<sup><a href="#fn1" id="ref1">1</a></sup>
+* "HTML is a Language, as it has code-words and syntax like any other language.”</em><sup><a href="#fn1" id="ref1">1</a></sup>
 
 HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
 
@@ -76,7 +76,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 6. We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
 
-7. Click on “Validate by Direct Input” and copy and paste the code above into the validator and click <check>. You should receive a few errors. 
+7. Click on “Validate by Direct Input” and copy and paste the code above into the validator and click `check`. You should receive a few errors. 
   
 8. While our browser was able to interpret this code in the last project, this document does not follow all of the rules of the current version of HTML. HTML is pretty forgiving, but other languages are not, so it’s best to practice following all of the rules from the start.
 
@@ -84,7 +84,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 # Creating an HTML File
 
-9. Let’s make a few modifications to the Hello World file that will make it valid. Open Geany and open a new file from File > New (with Template). Select “file.html.” 
+9. Let’s make a few modifications to the Hello World file that will make it valid. Open Geany and open a new file from File > New (with Template). Select `file.html`. 
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_1.png?raw=true" /></a></p>
 
@@ -92,7 +92,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 11. Geany has conveniently highlighted these different elements in different colors so that they can be easily distinguished as you build your html document.
 
-12. The red at the top are comments indicated by the <!-- and -->. Comments are written for the user and not for the computer. 
+12. The red at the top are comments indicated by the `<!-- and -->`. Comments are written for the user and not for the computer. 
 
 13. These special start and end tags tell the computer to ignore what follows. Comments are used to include instructions and explanations about the code in a human-readable form. 
 
@@ -118,7 +118,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 22. The namespace provides a means of disambiguation between elements with the same name. We won’t run into this issue in this lab, but we’ll see namespaces when we work with XML. 
 
-23. Also note here that the document language is declared as English with the “en” code with a standardized abbreviation for the English language.
+23. Also note here that the document language is declared as English with the `en` code with a standardized abbreviation for the English language.
 
 <blockquote>XHTML 1.0 Documentation http://www.w3.org/TR/xhtml1/</blockquote>
 
@@ -155,9 +155,9 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 35. After the first `<body>` tag, place a `<h1>` tag on a new line. 
 
 36. Notice two things:
-  a. The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the `<title>` and `<meta>` tags are nested within the `<head>` tags. Now, our `<h1>` is nested within the `<body>`. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).
+  * The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the `<title>` and `<meta>` tags are nested within the `<head>` tags. Now, our `<h1>` is nested within the `<body>`. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).
 
-  b. Geany has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. IDEs like Geany provide this function to help you prevent errors in your code and create valid documents.
+  * Geany has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. IDEs like Geany provide this function to help you prevent errors in your code and create valid documents.
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
 
@@ -181,7 +181,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 41. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
-42. Without closing the `index.html` file, let’s create a second file by clicking on down arrow next to the + icon in the upper left corner of the Geany window. 
+42. Without closing the `index.html` file, let’s create a second file by clicking on down arrow next to the `+` icon in the upper left corner of the Geany window. 
 
 43. Select `file.html`. Save this file as `page2.html` in the same folder where you have just saved `index.html`.
 
@@ -193,7 +193,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 # Creating Links in HTML
 
-45. Now, let’s add a link to the second page on our index.html page. 
+45. Now, let’s add a link to the second page on our `index.html` page. 
 
 46. We add links with the `<a href>` tag. This tag allows us to link pages in the same website and link out to pages that exist on external websites.
 
@@ -257,7 +257,8 @@ We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates p
 
 63. I’ve used the same style attribute for the `<p>` to change the background color to powder blue and the font to courier. 
 
-<blockquote><ul><li>HTML Colors: http://www.w3schools.com/colors/default.asp</li><li>HTML Fonts: http://www.w3schools.com/css/css_font.asp</li></ul></blockquote>
+<blockquote>HTML Colors: http://www.w3schools.com/colors/default.asp</blockquote>
+<blockquote>HTML Fonts: http://www.w3schools.com/css/css_font.asp</blockquote>
 
 <blockquote>Q5: Take a look at the HTML Colors page listed above. Do you see anything familiar?</blockquote>
 
@@ -277,7 +278,7 @@ We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates p
 
 70. Open a new file in Geany. Geany doesn’t have a standard template for CSS, but will recognize the file as a CSS after we save the file with the extension. 
 
-71. Open a new file and save it in the same folder as your other two .html files with the name `mystyle.css.`
+71. Open a new file and save it in the same folder as your other two `.html` files with the name `mystyle.css.`
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
 
@@ -328,12 +329,12 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 87. Next, you are going to build a website about these items. 
 
 88. You need to meet the following requirements:
-  * a. You need a landing page (index.html) that describes the items and provides a brief introduction to your site. For example, if you are presenting books from your favorite author you could provide a brief into to the author here. It doesn’t need to be extensive, but you want to include some content. Your landing page should also include some logo or image.
-  * b. The landing page (index.html) must also link to three different pages, one for each of the items you have chosen. Each of the item pages must include:
-    * i. A short description of the item. You may pull this description from another source (publisher, archives, Wikipedia), just be sure to cite the source and link back to it if it is online.
-    * ii. A link to some related source on the web (Wikipedia, a book review or museum exhibit, for example) If you’ve pulled your description from another source, then the link to this source can serve as the link.
-    * iii. A representative image.
-  * c. You also need a CSS for your site. The CSS will be used across all four pages of content to standardize the look and feel of your site.
+  * You need a landing page (index.html) that describes the items and provides a brief introduction to your site. For example, if you are presenting books from your favorite author you could provide a brief into to the author here. It doesn’t need to be extensive, but you want to include some content. Your landing page should also include some logo or image.
+  * The landing page (index.html) must also link to three different pages, one for each of the items you have chosen. Each of the item pages must include:
+    * A short description of the item. You may pull this description from another source (publisher, archives, Wikipedia), just be sure to cite the source and link back to it if it is online.
+    * A link to some related source on the web (Wikipedia, a book review or museum exhibit, for example) If you’ve pulled your description from another source, then the link to this source can serve as the link.
+    * A representative image.
+  * You also need a CSS for your site. The CSS will be used across all four pages of content to standardize the look and feel of your site.
 
 89. That’s it. You are free to be as creative as you’d like as long as you meet these requirements.
 
@@ -341,7 +342,7 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 
 91. You’ll find tutorials for menus, tables, and other elements to jazz up your site. Feel free to borrow code and CSS from anywhere on the web. Have fun and experiment!
 
-92. Submit the HTML files and relevant CSS as as `.zip` folder on P-Web.
+92. Submit the HTML files and relevant CSS as as `.zip` folder on P-Web, along with your lab notebook.
 
 <blockquote>Q6: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
@@ -351,7 +352,7 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 
 # Lab Questions
 
-All of the required questions are listed here. Be sure to answer each question completely, including an explanation of how you arrived at your answer. Also include the HTML files and relevant CSS as as `.zip` folder on P-Web.
+All of the required questions are listed here. Be sure to answer each question completely, including an explanation of how you arrived at your answer. Also submit the HTML files and relevant CSS as a `.zip` folder on P-Web.
 
 Q1: How do you typically install new software on your computer? How is this process similar/different?
 
