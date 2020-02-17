@@ -5,7 +5,7 @@ This tutorial was written by [Lindsay K. Mattock](http://lindsaymattock.net) and
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
 This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
-Over the next few weeks we are going to complete a number of programming projects. We are going to start out with two markup languages HTML and XML. As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. We already have several options on our Pi, including the Leaf Pad text editor and Nano at the command line. But, there are other tools that provide additional functions that will help us to work with these languages. Before we start building our HTML pages we are going to install an Integrated Development Environment (IDE) that help us to write and find errors in our HTML. We will also use the IDE for future labs on XML and Python.
+Over the next few weeks we are going to complete a number of programming projects. As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. We already have several options on our Pi, including the Leaf Pad text editor and Nano at the command line. But, there are other tools that provide additional functions that will help us to work with these languages. Before we start building our HTML pages we are going to install an Integrated Development Environment (IDE) that help us to write and find errors in our HTML. We will also use the IDE for future labs that work with Python.
 
 <blockquote>Integrated Development Environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion. Some IDEs, such as NetBeans and Eclipse, contain a compiler, interpreter, or both; others, such as SharpDevelop and Lazarus, do not. https://en.wikipedia.org/wiki/Integrated_development_environment</blockquote>
 
@@ -98,7 +98,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 14. Feel free to use comments throughout your code to leave notes for yourself or describe what the code is doing (or what you want it to do).
 
-15. Next, in green we have the document type declaration beginning with `<!DOCTYPE`. We’ll see this again when we work with XML. In this case, the document type is followed by html. This is simply telling the computer that what follows is a HTML document. 
+15. Next, in green we have the document type declaration beginning with `<!DOCTYPE`. In this case, the document type is followed by html. This is simply telling the computer that what follows is a HTML document. 
 
 16. The next piece, `-//W3C//DTD XHTML 1.0 Strict//EN` is the version declaration. 
 
@@ -108,7 +108,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 18. The final piece of this declaration is the URL for the DTD or Document Type Definition: http://www.w3.org/TR/xhtml1/dtds.html. 
 
-19. This is the data structure or the rules for this version of HTML. Each version will have a different DTD defining the structure and all of the elements and attributes that can be used. We will talk more about DTDs in the XML lab.
+19. This is the data structure or the rules for this version of HTML. Each version will have a different DTD defining the structure and all of the elements and attributes that can be used.
 
 <blockquote>DTD for XHTML 1.0 http://www.w3.org/TR/xhtml1/dtds.html</blockquote>
 
@@ -116,7 +116,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 21. This is just another piece of the XHTML specification. 
 
-22. The namespace provides a means of disambiguation between elements with the same name. We won’t run into this issue in this lab, but we’ll see namespaces when we work with XML. 
+22. The namespace provides a means of disambiguation between elements with the same name. We won’t run into this issue in this lab. 
 
 23. Also note here that the document language is declared as English with the `en` code with a standardized abbreviation for the English language.
 
@@ -322,7 +322,7 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 
 84. Now, it’s time to build your own website. This lab has introduced you to the tools that you need, but feel free to expand on what you have learned using the w3schools site and whatever other resources you find on the web. 
 
-85. We will continue building this website in future labs on XML and Python. For now, your site needs to fit a few minimum requirements.
+85. We will continue building this website in a future lab on Python. For now, your site needs to fit a few minimum requirements.
   
 86. First, the theme. Choose at least three media items—these can be books, articles, podcasts, films, songs, etc. Ideally, these three (or more) items will have something in common, but that connection is up to you.
 
