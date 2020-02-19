@@ -144,7 +144,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 31. Replace “untitled” between the `<title>` tags to give your document a new title.
 
-<blockquote>Q3: Between the <code><head></code> tags, there are also a few <code><meta></code> tags. Use the W3C site to translate this information in your notebook.</blockquote>
+<blockquote>Q3: Between the head tags, there are also a few meta tags. Use the W3C site to translate this information in your notebook.</blockquote>
   
 32. Now, let’s modify the body. This is where the content that we will see in the web browser is entered. 
 
