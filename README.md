@@ -5,24 +5,23 @@ This tutorial was written by [Lindsay K. Mattock](http://lindsaymattock.net) and
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>
 This tutorial is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
-Over the next few weeks we are going to complete a number of programming projects. As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. We already have several options on our Pi, including the Leaf Pad text editor and Nano at the command line. But, there are other tools that provide additional functions that will help us to work with these languages. Before we start building our HTML pages we are going to install an Integrated Development Environment (IDE) that help us to write and find errors in our HTML. We will also use the IDE for future labs that work with Python.
+Over the next few weeks we are going to complete a number of programming projects. As you read in your assigned reading for this week, both of these languages require a specific syntax. The reading from w3 Schools suggested downloading a text editor to create your html files. Your computer likely already has some text editor options (Notepad or Notepad ++ for PC users, or Text Editor for Mac users). But, there are other tools that provide additional functions that will help us to work with these languages. Before we start building our HTML pages we are going to set up an Integrated Development Environment (IDE) that help us to write and find errors in our HTML. We will also use the IDE for future labs that work with Python.
 
 <blockquote>Integrated Development Environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion. Some IDEs, such as NetBeans and Eclipse, contain a compiler, interpreter, or both; others, such as SharpDevelop and Lazarus, do not. https://en.wikipedia.org/wiki/Integrated_development_environment</blockquote>
 
 ## Lab Objectives
 
 By the end of this lab you will be able to:
--	Install software at the Command Line
 -	Identify the key features of an IDE
--	Use the Geany IDE to generate HTML pages
--	Use the Geany IDE to generate CSS stylesheets to format your HTML pages
+-	Use the Repl.it IDE to generate HTML pages
+-	Use the Repl.it IDE to generate CSS stylesheets to format your HTML pages
 
 ## Acknowledgements
 
 This lab is based on the "Project 3: HTML/CSS" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Table of Contents
-- [Installing the Geany IDE](#installing-the-geany-ide)
+- [Getting Started With Repl.it](#getting-started-with-replit)
 - [What is HTML?](#what-is-html)
   * [Hello World!](#hello-world)
 - [Creating an HTML File](#creating-an-html-file)
@@ -36,17 +35,15 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - [Endnotes](#endnotes)
 - [Lab Questions](#lab-questions)
 
-# Installing the Geany IDE
+# Getting Started With Repl.it
 
-1. We are going to install Geany at the command line. This will give you some more practice for a future lab when we build a server on our Pi.
+1. Navigate to https://repl.it/ in a web browser.
 
-2. Connect your Pi to the Internet either through Wi-Fi or the Ethernet cable. Open a Terminal session (If you don’t remember how, revisit the Project 1 instructions)
+2. Click the `Sign Up` button in the upper right-hand corner to create a free account.
 
-3. Install Geany IDE at the command line using `sudo apt-get install geany`. After the installation is complete you will find Geany in Menu > Programming
+3. Click the `New repl` button in the upper left-hand corner to start a new repl.
 
-<blockquote>Geany documentation http://www.geany.org</blockquote>
-
-<blockquote>Q1: How do you typically install new software on your computer? How is this process similar/different?</blockquote>
+<blockquote>Q1: Describe what you're seeing in the Repl.it IDE. What looks familiar? What is unfamiliar? </blockquote>
 
 # What is HTML?
 
@@ -70,7 +67,7 @@ HTML is all about sharing, storing, and accessing information. HTML provides the
 
 This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
    
-4. Download the `hello_world.html` file and open it with the web browser on your Pi. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
+4. Download the `hello_world.html` file ([link to Google Drive download, ND users only](https://drive.google.com/drive/folders/1Kw82eAyMXyJdH6stajbH2oFJRMpY2ZCX?usp=sharing)) and open it with the web browser on your computer. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
 
 5. `helloworld.html` contains the minimum requirements for an HTML document. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. 
 
@@ -84,13 +81,13 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 # Creating an HTML File
 
-9. Let’s make a few modifications to the Hello World file that will make it valid. Open Geany and open a new file from File > New (with Template). Select `file.html`. 
+9. Let’s make a few modifications to the Hello World file that will make it valid. Navigate to your Lab #4 repl and open the `index.html` document. 
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_1.png?raw=true" /></a></p>
 
 10. If you compare this blank template to the structure of an html document that you read about from the WC3 this week, you will find all of the required elements in this template. 
 
-11. Geany has conveniently highlighted these different elements in different colors so that they can be easily distinguished as you build your html document.
+11. Repl.it has conveniently highlighted these different elements in different colors so that they can be easily distinguished as you build your html document.
 
 12. The red at the top are comments indicated by the `<!-- and -->`. Comments are written for the user and not for the computer. 
 
@@ -126,11 +123,11 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 24. What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
 
-25. Geany has constructed a blank template for us to work from. This html document is well- formed and valid. 
+25. Repl.it has constructed a blank template for us to work from. This html document is well- formed and valid. 
 
 26. We can test this by copying and pasting our file into the HTML Validator. (Go ahead and give it a try https://validator.w3.org). 
 
-27. This is one of the advantages to using and IDE for website development. As you will see in a few moments, Geany has a few other features that will help us to create clean, well-formed, and valid HTML documents.
+27. This is one of the advantages to using and IDE for website development. As you will see in a few moments, Repl.it has a few other features that will help us to create clean, well-formed, and valid HTML documents.
 
 # Adding Content to `Index.html`
 
@@ -157,7 +154,7 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 36. Notice two things:
   * The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the `<title>` and `<meta>` tags are nested within the `<head>` tags. Now, our `<h1>` is nested within the `<body>`. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).
 
-  * Geany has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. IDEs like Geany provide this function to help you prevent errors in your code and create valid documents.
+  * Repl.it has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. IDEs like Repl.it provide this function to help you prevent errors in your code and create valid documents.
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
 
@@ -165,11 +162,11 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
 
-38. Geany has another function that will be helpful as we develop our websites. Press F5 and your html document will display in the web browser.
+38. Repl.it has another function that will be helpful as we develop our websites. Click the `Run` button and your `.html` document will display in Repl.it's web browser.
 
-39. At any time you can check the way that your code will render by pressing the F5 key. Go ahead and save the file by selecting Save As from the File menu. 
+39. At any time you can check the way that your code will render clicking `Run`. 
 
-<blockquote>You can also press <code>Control + S</code> to save file updates.</blockquote>
+<blockquote>Repl.it will auto-save your work (like Google Docs). For other IDEs, you can press <code>Control + S</code> to save file updates.</blockquote>
 
 40. Save the file in a dedicated new folder for this project, and call it `index.html.`
 
@@ -181,9 +178,9 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 41. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
-42. Without closing the `index.html` file, let’s create a second file by clicking on down arrow next to the `+` icon in the upper left corner of the Geany window. 
+42. Let’s create a second `.html` file by clicking on the `+` "Add File" icon in the upper left-hand corner. 
 
-43. Select `file.html`. Save this file as `page2.html` in the same folder where you have just saved `index.html`.
+43. Save this file as `page2.html`. Copy the `HTML` template formatting from `index.html` into this new document. (Your new `.html` file needs the `doctype` declaration, opening/closing `html` tags, and the information contained in the `<head>` tag).
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_8.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_8.jpg?raw=true" /></a></p>
 
@@ -205,17 +202,17 @@ Learn more about the `<a href>` tag at w3school: http://www.w3schools.com/TAGS/a
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true" /></a></p>
 
-49. Go ahead an open index.html by pressing F5 or opening it in your browser to see what our new link looks like. 
+49. Go ahead and open `index.html` by pressing F5 or opening it in your browser to see what our new link looks like. 
 
 50. When you click on “Link to page 2” your `page2.html` file should open. In this case, our URL to the page in our `<a href>` tags is just the name of new page we created. 
 
-51. We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our server (the Pi). 
+51. We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our server (the repl). 
 
 52. If we had saved this file to another folder or directory, we would put the file path here.
 
 # Adding Images in HTML
 
-53. Let’s add an image to the `index.html` page. Find an image that you like on the web and save it to the folder containing your two html documents on your Pi. 
+53. Let’s add an image to the `index.html` page. Find an image that you like on the web, save it to your local computer, and upload the file to your repl. 
 
 54. The `<img>` tag is very similar to the `<a href>` tag that we just used. 
 
@@ -223,7 +220,7 @@ Learn more about the `<a href>` tag at w3school: http://www.w3schools.com/TAGS/a
 
 56. The `src` can be a local file or a URL to an image on the web, just like the href attribute in the `<a href>` tag. 
 
-57. The `alt` is for the alternative text or the text that is displayed for the visually impaired or browsers like lynx that don’t support images. 
+57. The `alt` is for the alternative text or the text that is displayed for screen readers or browsers like lynx that don’t support images. 
 
 Learn more about the `<img>` tag at w3school:  http://www.w3schools.com/tags/tag_img.asp</blockquote>
 
@@ -235,7 +232,7 @@ Learn more about the `<img>` tag at w3school:  http://www.w3schools.com/tags/tag
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true" /></a></p>
 
-60. View the page in your browser to see if the image has loaded correctly.
+60. View the page in the Replit browser to see if the image has loaded correctly.
 
 <blockquote>Q4: Create another link to another HTML page or image, but save that file in a different directory or folder on your computer. How did you have to modify the HTML to call that file in your webpage? Why?</blockquote>
   
@@ -276,9 +273,9 @@ We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates p
 
 ## Creating and Implementing CSS
 
-70. Open a new file in Geany. Geany doesn’t have a standard template for CSS, but will recognize the file as a CSS after we save the file with the extension. 
+70. Open the already-existing `style.css` file in your repl.
 
-71. Open a new file and save it in the same folder as your other two `.html` files with the name `mystyle.css.`
+71. Rename the existing file with the name `mystyle.css.`
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
 
@@ -310,7 +307,7 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
 
-80. Open the `index.html` file in a browser to see the updated CSS.
+80. Open the `index.html` file in the Replit browser to see the updated CSS.
 
 81. However, if you click on the link to `page2.html`, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. 
 
@@ -320,9 +317,9 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 
 # Creating a Website
 
-84. Now, it’s time to build your own website. This lab has introduced you to the tools that you need, but feel free to expand on what you have learned using the w3schools site and whatever other resources you find on the web. 
+84. Now, it’s time to build your own website. This lab has introduced you to the tools that you need, but feel free to expand on what you have learned using the w3schools site and other resources you find on the web (be sure to cite sources/code). 
 
-85. We will continue building this website in a future lab on Python. For now, your site needs to fit a few minimum requirements.
+85. For now, your site needs to fit a few minimum requirements.
   
 86. First, the theme. Choose at least three media items—these can be books, articles, podcasts, films, songs, etc. Ideally, these three (or more) items will have something in common, but that connection is up to you.
 
@@ -342,7 +339,7 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 
 91. You’ll find tutorials for menus, tables, and other elements to jazz up your site. Feel free to borrow code and CSS from anywhere on the web. Have fun and experiment!
 
-92. Submit the HTML files and relevant CSS as as `.zip` folder on P-Web, along with your lab notebook.
+92. Submit the HTML files and relevant CSS as as `.zip` folder on Sakai, along with your answers to lab notebook questions.
 
 <blockquote>Q6: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
@@ -352,9 +349,9 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 
 # Lab Questions
 
-All of the required questions are listed here. Be sure to answer each question completely, including an explanation of how you arrived at your answer. Also submit the HTML files and relevant CSS as a `.zip` folder on P-Web.
+All of the required questions are listed here. Be sure to answer each question completely, including an explanation of how you arrived at your answer. Also submit the HTML files and relevant CSS as a `.zip` folder on Sakai.
 
-Q1: How do you typically install new software on your computer? How is this process similar/different?
+Q1: Describe what you're seeing in the Repl.it IDE. What looks familiar? What is unfamiliar?
 
 Q2: Try to interpret a few of these errors in your own words. In particular, how would you explain the warnings related to character encoding?
 
