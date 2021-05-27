@@ -49,11 +49,10 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 HTML stands for HyperText Markup Language
 
-<em>“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
+<blockquote>“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
 
-* "Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).
-
-* "HTML is a Language, as it has code-words and syntax like any other language.”</em><sup><a href="#fn1" id="ref1">1</a></sup>
+<ul><li>"Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).</li>
+ <li>"HTML is a Language, as it has code-words and syntax like any other language.”</em><sup><a href="#fn1" id="ref1">1</a></sup></li></ul></blockquote>
 
 HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
 
