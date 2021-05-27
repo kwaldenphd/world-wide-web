@@ -9,6 +9,8 @@ Over the next few weeks we are going to complete a number of programming project
 
 <blockquote>Integrated Development Environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion. Some IDEs, such as NetBeans and Eclipse, contain a compiler, interpreter, or both; others, such as SharpDevelop and Lazarus, do not. https://en.wikipedia.org/wiki/Integrated_development_environment</blockquote>
 
+[Link to lab notebook template](https://docs.google.com/document/d/1r92sHMZ5Ok137qbfPkK1Z9-zedyIeaXn6z1hniHCnOc/copy) (ND users, Google Doc).
+
 ## Lab Objectives
 
 By the end of this lab you will be able to:
@@ -348,7 +350,9 @@ Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags
 
 # Lab Questions
 
-All of the required questions are listed here. Be sure to answer each question completely, including an explanation of how you arrived at your answer. Also submit the HTML files and relevant CSS as a `.zip` folder on Sakai.
+[Link to lab notebook template](https://docs.google.com/document/d/1r92sHMZ5Ok137qbfPkK1Z9-zedyIeaXn6z1hniHCnOc/copy) (ND users, Google Doc).
+
+All of the required questions are listed here. Be sure to answer each question completely, including an explanation of how you arrived at your answer. Also submit the HTML files and relevant CSS as a `.zip` folder on Canvas.
 
 Q1: Describe what you're seeing in the Repl.it IDE. What looks familiar? What is unfamiliar?
 
