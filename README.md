@@ -175,15 +175,11 @@ This is a very basic HTML document. The HTML tags `<HTML>` identify this documen
 
 # Building Additional Web Pages
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_7.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_7.jpg?raw=true" /></a></p>
-
 41. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
 42. Let’s create a second `.html` file by clicking on the `+` "Add File" icon in the upper left-hand corner. 
 
-43. Save this file as `page2.html`. Copy the `HTML` template formatting from `index.html` into this new document. (Your new `.html` file needs the `doctype` declaration, opening/closing `html` tags, and the information contained in the `<head>` tag).
-
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_8.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_8.jpg?raw=true" /></a></p>
+43. Save this file as `page2.html`. 
 
 44. Now add some content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
 
