@@ -304,7 +304,7 @@ THIS FIG STAYS
 
 <blockquote>Q5: Move the image you added in Q4 into the "Images" folder. What happens when you hit "Run"? What would you need to modify in the HTML to correctly display this image? Hint: Refer to step 59 in the lab procedure.</blockquote>
 
-# Identifying HTML Tables
+# Building Tables in HTML
  
 69. HTML uses a few core tags for web pages that include tables.
 - `table` (marks the start and end of a table
@@ -363,110 +363,167 @@ THIS FIG STAYS
 
 <blockquote>Q6: Add a table to one of your HTML pages (index.html or page2.html). You could create fictional data or add meaningful data from another source. What challenges did you face getting the table to display and function like you expected?</blockquote> 
 
-# Using Cascading Style Sheets (CSS)
+# Using HTML Styles
 
-If you read through the w3schools site, you will see that there is so much more that you can do with HTML. You will have an opportunity to explore on your own in a little bit. 
+75. HTML allows us to add style to our pages internally, or inline, using HTML tags. 
 
-HTML allows us to add style to our pages internally, or inline. 
-
-We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
+76. We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true" /></a></p>
 
-61. We can add style to each individual element within the page like so.
+77. We can add style to individual HTML element tags using `style` attributes.
+
+78. The syntax for style attributes is `style="STYLE_PROPERTY:PROPERTY_VALUE;"`
+
+79. For example, if we wanted text characters in the `H1` tag to be blue and center aligned:
+```HTML
+ <h1 style="color:blue; text-align:center;">Hello World!</h1>
+```
+
+80. And if we wanted text in the `p` tag to have a light blue background and a different font:
+```HTML
+ <p style="background-color:powderblue; font-family:courier;">This is my first HTML page.</p>
+```
+
+81. All style elements are enclosed in quotation marks and include a semicolon after each element.
+
+82. To put that all together:
+
+```HTML
+<body>
+ <h1 style="color:blue; text-align:center;">Hello World!</h1>
+ <p style="background-color:powderblue; font-family:courier;">This is my first HTML page.</p>
+</body>
+```
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_14.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_14.png?raw=true" /></a></p>
 
-62. Here you can see that I’ve used the style attribute for the `<h1>` heading to change the text color to blue and center the text. 
+83. We can see how the style attributes are changing how the web page content displays:
+- The `<h1>` heading has has a blue text color and is center-aligned
+- The `<p>` content has a powder blue background color and Courier font
 
-63. I’ve used the same style attribute for the `<p>` to change the background color to powder blue and the font to courier. 
+84. For more on HTML styles:
+- HTML Styles: https://www.w3schools.com/html/html_styles.asp
+- HTML Colors: https://www.w3schools.com/html/html_colors.asp
 
-<blockquote>HTML Colors: http://www.w3schools.com/colors/default.asp</blockquote>
-<blockquote>HTML Fonts: http://www.w3schools.com/css/css_font.asp</blockquote>
+<blockquote>Q7: Take a look at the HTML Colors page listed above. Do you see anything familiar?</blockquote>
 
-<blockquote>Q5: Take a look at the HTML Colors page listed above. Do you see anything familiar?</blockquote>
+<blockquote>Q8: If you haven't already, experiment with modifying your existing HTML pages to include some of these style elements.</blockquote>
 
-64. You can always add style in this matter, but if I want every heading to be blue and centered and every paragraph in courier font with a light blue background, then I need to add quite a bit of code every time I add a new page or element. 
+# Using Cascading Style Sheets (CSS)
 
-65. Cascading Style Sheets (CSS) provides a more elegant way to add these style attributes across the pages in our site. 
+85. You can customize HTML using style attributes, but imagine you want all instances of the `<h1>` or `<p>` tag in your website to have the same formatting.
 
-66. As you saw in the demo in your reading (http://www.w3schools.com/css/css_intro.asp) you can take the same page content and change the look and feel with a new CSS. 
+86. Doing this with `style` would require adding code every time you use these elements.
 
-67. For those of you familiar with WordPress, this is how the various “themes” of the sites are managed. These are external CSS because they are files that are separate from the HTML pages. 
+87. Cascading Style Sheets (CSS) provides a more elegant way to add these style attributes across the pages in our site. 
+- For more on CSS: https://www.w3schools.com/css/css_intro.asp
 
-68. Let’s create a simple external CSS for our site. The CSS is cascading because there is a hierarchy to the way that styles are applied. If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. 
+88. For those familiar with website-building tools like WordPress, Weebly, or Wix, CSS is a main part of how different site "themes" are managed. 
 
-69. In this way we can override the stylesheet if there is particular content that we would like to style differently.
+89. Let’s create a simple external CSS for our site. 
+
+90. The CSS is cascading because there is a hierarchy to the way that styles are applied. 
+
+91. If styles are defined within the document (as in the previous example), then they are applied before those in the stylesheet. This lets us override the stylsheet if there is particular content that we would like to style differently.
 
 ## Creating and Implementing CSS
 
-70. Open the already-existing `style.css` file in your repl.
+92. Open the already-existing `style.css` file in your repl.
 
-71. Rename the existing file with the name `mystyle.css.`
+93. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
 
-72. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
+94. Let's get started by adding a few styles for the background, `<h1>`, and `<p>`. 
 
-73. I’ve added a few simple styles for the background, `<h1>`, and `<p>`. Each tag is defined first `<body>`, `<h1>`, and `<p>` in this example. These are referred to as the selectors. 
+95. Each tag is defined first `<body>`, `<h1>`, and `<p>` in this example. These are referred to as the selectors. 
 
-74. Our style instructions for each tag are enclosed in `{ }`. These are called declarations. 
+96. Our style instructions for each tag are enclosed in `{ }`. These are called declarations. 
 
-75. We can add as many style declarations as we would like in between the brackets, separating each with a semicolon. Each declaration has a property followed by a colon and then a value. 
+97. We can add as many style declarations as we would like in between the brackets, separating each with a semicolon. Each declaration has a property followed by a colon and then a value. 
 
-76. It is common practice to place each declaration on a new line and to indent the declarations, but this is only to make the file easier for us to read and edit. The spacing has no impact on how the computer reads and interprets the code.
+98. It is common practice to place each declaration on a new line and to indent the declarations, but this is only to make the file easier for us to read and edit. The spacing has no impact on how the computer reads and interprets the code.
 
-77. Now we need to link the CSS to our HTML files. This is called a reference. Each HTML page must reference the CSS to apply it to the page. We create this reference in the `<head>` of the HTML document with the other metadata. 
+99. Putting that all together:
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_16.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_16.jpg?raw=true" /></a></p>
+```CSS
+body {
+ background-color: lightblue;
+ }
+ 
+h1 {
+ color: white;
+ text-align: center;
+}
 
-78. In the `<head>` of `index.html` add the reference `<link rel=”stylesheet” type=”text/css” href=”mystyle.css”>`.
+p {
+ font-family: courier;
+ font-size: 20px;
+}
+```
 
-79. This line can appear anywhere between the `<head>` and `</head>`. 
+100. Now we need to link the CSS to any HTML file where we want the style sheet to apply. This connection is called a reference. 
 
-  * The `<link>` tag is another way to create links to other documents. 
-  
-  * In this case the `rel` attribute defines the relationship between the HTML file and the linking document. 
+101. Each HTML page must reference the CSS to apply it to the page. 
 
-  * The `type` defines the type and `href` contains the URL or location reference for the file.
+102. We create this reference in the `<head>` of the HTML document with the other metadata. 
 
-Learn more about the `<link rel>` tag at w3school: http://www.w3schools.com/tags/att_link_rel.asp
+103. In the `<head>` of `index.html` add the reference `<link rel="stylesheet" type="text/css" href="mystyle.css">`.
 
+```HTML
+<head>
+ <title>Page Title</title>
+ <link rel="stylesheet" type="text/css" href="style.css">
+```
+
+104. This line can appear anywhere between the `<head>` and `</head>`. 
+- The `<link>` tag is another way to create links to other documents. 
+- In this case the `rel` attribute defines the relationship between the HTML file and the linking document. 
+- The `type` defines the type and `href` contains the URL or location reference for the file.
+
+105. To learn more about the `<link rel>` tag: http://www.w3schools.com/tags/att_link_rel.asp
+
+THIS FIG STAYS
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
 
-80. Open the `index.html` file in the Replit browser to see the updated CSS.
+106. Open the `index.html` file in the Replit browser to see the updated CSS.
 
-81. However, if you click on the link to `page2.html`, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. 
+107. However, if you click on the link to `page2.html`, it will look the same as it did before. This is because we need to link the stylesheet to each of the pages. 
 
-82. Add the same `<link rel=”stylesheet” type=”text/css” href=”mystyle.css”>` to `page2.html`. 
+108. Add the same `<link rel="stylesheet" type="text/css" href="mystyle.css">` to `page2.html`. 
 
-83. Now both pages should share the same style.
+109. Now both pages should share the same style.
+
+<blockquote>Q9: If you haven't already, experiment with creating a CSS and linking it to your HTML pages.</blockquote>
 
 # Creating a Website
 
-84. Now, it’s time to build your own website. This lab has introduced you to the tools that you need, but feel free to expand on what you have learned using the w3schools site and other resources you find on the web (be sure to cite sources/code). 
+110. Now, it’s time to build your own website. The lab procedure has covered the tools you can use to get started, but you can also expand on what you've learned using the W3Schools HTML and CSS resources and documentation. Be sure to cite external sources you reference or consult.
 
-85. For now, your site needs to fit a few minimum requirements.
+111. For now, your site needs to fit a few minimum requirements.
   
-86. First, the theme. Choose at least three media items—these can be books, articles, podcasts, films, songs, etc. Ideally, these three (or more) items will have something in common, but that connection is up to you.
+112. First, the theme. Choose at least three media items—these can be books, articles, podcasts, films, songs, etc. Ideally, these three (or more) items will have something in common, but that connection is up to you.
 
-87. Next, you are going to build a website about these items. 
+113. Next, you are going to build a website about these items. 
 
-88. You need to meet the following requirements:
-  * You need a landing page (index.html) that describes the items and provides a brief introduction to your site. For example, if you are presenting books from your favorite author you could provide a brief into to the author here. It doesn’t need to be extensive, but you want to include some content. Your landing page should also include some logo or image.
-  * The landing page (index.html) must also link to three different pages, one for each of the items you have chosen. Each of the item pages must include:
-    * A short description of the item. You may pull this description from another source (publisher, archives, Wikipedia), just be sure to cite the source and link back to it if it is online.
-    * A link to some related source on the web (Wikipedia, a book review or museum exhibit, for example) If you’ve pulled your description from another source, then the link to this source can serve as the link.
-    * A representative image.
-  * You also need a CSS for your site. The CSS will be used across all four pages of content to standardize the look and feel of your site.
+114. You need to meet the following requirements:
+- You need a landing page (index.html) that describes the items and provides a brief introduction to your site. For example, if you are presenting books from your favorite author you could provide a brief into to the author here. It doesn’t need to be extensive, but you want to include some content. Your landing page should also include some logo or image.
+- The landing page (index.html) must also link to three different pages, one for each of the items you have chosen. 
+- Each of the item pages must include:
+  * A short description of the item. You may pull this description from another source (publisher, archives, Wikipedia), just be sure to cite the source and link back to it if it is online.
+  * A link to some related source on the web (Wikipedia, a book review or museum exhibit, for example) If you’ve pulled your description from another source, then the link to this source can serve as the link.
+  * A representative image.
+- The site also needs to include at least one table built in HTML (could be on any page)
+- You also need a CSS for your site. The CSS will be used across all four pages of content to standardize the look and feel of your site.
 
-89. That’s it. You are free to be as creative as you’d like as long as you meet these requirements.
+115. That’s it. You are free to be as creative as you’d like as long as you meet these requirements.
 
-90. I encourage you to use the w3schools pages as a guide for HTML (http://www.w3schools.com/html/) and CSS (http://www.w3schools.com/css/default.asp) as you design your site. 
+116. I encourage you to use the w3schools pages as a guide for HTML (http://www.w3schools.com/html/) and CSS (http://www.w3schools.com/css/default.asp) as you design your site. 
 
-91. You’ll find tutorials for menus, tables, and other elements to jazz up your site. Feel free to borrow code and CSS from anywhere on the web. Have fun and experiment!
+117. You’ll find tutorials for menus, tables, and other elements to jazz up your site. Feel free to borrow code and CSS from anywhere on the web. Have fun and experiment!
 
-92. Submit the HTML files and relevant CSS as as `.zip` folder on Sakai, along with your answers to lab notebook questions.
+118. Submit the HTML files and relevant CSS as as `.zip` folder on Canvas, along with your answers to lab notebook questions.
 
 <blockquote>Q6: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
