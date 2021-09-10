@@ -111,11 +111,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
    
 13. Download the `hello_world.html` file ([link to Google Drive download, ND users only](https://drive.google.com/drive/folders/1Kw82eAyMXyJdH6stajbH2oFJRMpY2ZCX?usp=sharing)) and open it in a web browser on your computer. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
 
-12. `helloworld.html` contains the minimum requirements for an HTML document. 
-
-13. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. 
-
-14. We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
+14. `helloworld.html` contains the minimum requirements for an HTML document. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
 
 15. Click on “Validate by Direct Input” and copy and paste the code above into the validator and click `check`. You should receive a few errors. 
 - [W3Schools, "HTML head tag"](https://www.w3schools.com/tags/tag_head.asp)
@@ -523,7 +519,7 @@ THIS FIG STAYS
 - Link template: `https://replit.com/@USERNAME/PROJECTNAME`
 - The link you copy in from Replit should include your username, followed by the project name (whatever you titled the Repl when you created the workspace)
 
-<blockquote>Q10: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
+<blockquote>Q10: Have you ever created a website before? Have you used a program like WordPress, Wix, SquareSpace, or Weebly? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
 <blockquote>Q11: Submit the HTML files and relevant CSS as as zip folder on Canvas. See step 119 in the lab procedure includes instructions for downloading these materials from Replit. Include a link to your Repl project and workspace for this lab. See step 120 in the lab procedure for instructions on getting this link.</blockquote>
 
@@ -558,6 +554,6 @@ Q8: If you haven't already, experiment with modifying your existing HTML pages t
 
 Q9: If you haven't already, experiment with creating a CSS and linking it to your HTML pages.
 
-Q10: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.
+Q10: Have you ever created a website before? Have you used a program like WordPress, Weebly, SquareSpace, or Wix? How is this process different? Reflect on the process of creating a website by working directly with the HTML.
 
 Q11: Submit the HTML files and relevant CSS as as zip folder on Canvas. See step 119 in the lab procedure includes instructions for downloading these materials from Replit. Include a link to your Repl project and workspace for this lab. See step 120 in the lab procedure for instructions on getting this link.
