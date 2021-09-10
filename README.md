@@ -15,7 +15,7 @@ Over the next few weeks we are going to complete a number of programming project
 
 By the end of this lab you will be able to:
 -	Identify the key features of an IDE
--	Use the Repl.it IDE to generate HTML pages
+-	Use the Repl.it IDE to generate HTML pages that include links, images, and tables
 -	Use the Repl.it IDE to generate CSS stylesheets to format your HTML pages
 
 ## Acknowledgements
@@ -31,6 +31,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - [Building Additional Web Pages](#building-additional-web-pages)
 - [Creating Links in HTML](#creating-links-in-html)
 - [Adding Images in HTML](#adding-images-in-html)
+- [Building Tables in HTML](#building-tables-in-html)
 - [Using Cascading Style Sheets](#using-cascading-style-sheets-css)
   * [Creating and Implementing CSS](#creating-and-implementing-css)
 - [Creating a Website](#creating-a-website)
@@ -41,22 +42,32 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 1. Navigate to https://repl.it/ in a web browser.
 
-2. Click the `Sign Up` button in the upper right-hand corner to create a free account.
+2. Click the `Sign Up` button in the upper right-hand corner to create a free account using your Notre Dame @nd.edu Gmail.
+- You may also have received an email invitation to join the "Elements of Computing I" team in Replit. Accepting this invitation will also set up a free Replit account.
 
-3. Click the `New repl` button in the upper left-hand corner to start a new repl.
+3. When logged into Replit, you should see that you are part of the "Elements of Computing I" team/organization.
+
+4. This team workspace includes a template workspace for this lab. Create a copy of the template.
+
+5. Otherwise, you will need to click the `New repl` button in the upper left-hand corner to start a new repl.
+
+6. If creating a new Repl from scrach, select "HTML/CSS" from the dropdown menu for repl type.
+
+7. Give the project a descriptive and meaningful name.
+- For example `Walden_HTML_CSS_Lab3` 
 
 <blockquote>Q1: Describe what you're seeing in the Repl.it IDE. What looks familiar? What is unfamiliar? </blockquote>
 
 # What is HTML?
 
-HTML stands for HyperText Markup Language
+8. HTML stands for HyperText Markup Language
 
 <blockquote>“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
 
 <ul><li>"Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).</li>
  <li>"HTML is a Language, as it has code-words and syntax like any other language.”</em><sup><a href="#fn1" id="ref1">1</a></sup></li></ul></blockquote>
 
-HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
+9. HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
 
 ## Hello World!
 
@@ -66,17 +77,21 @@ HTML is all about sharing, storing, and accessing information. HTML provides the
 </html>
 ```
 
-This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
+10. This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
    
-4. Download the `hello_world.html` file ([link to Google Drive download, ND users only](https://drive.google.com/drive/folders/1Kw82eAyMXyJdH6stajbH2oFJRMpY2ZCX?usp=sharing)) and open it with the web browser on your computer. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
+11. Download the `hello_world.html` file ([link to Google Drive download, ND users only](https://drive.google.com/drive/folders/1Kw82eAyMXyJdH6stajbH2oFJRMpY2ZCX?usp=sharing)) and open it with the web browser on your computer. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
 
-5. `helloworld.html` contains the minimum requirements for an HTML document. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. 
+12. `helloworld.html` contains the minimum requirements for an HTML document. 
 
-6. We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
+13. However, it is best practice to create a HTML document that is “well formed,” that is, that it follows all of the grammar, vocabulary, and syntax rules of html. 
 
-7. Click on “Validate by Direct Input” and copy and paste the code above into the validator and click `check`. You should receive a few errors. 
+14. We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
+
+15. Click on “Validate by Direct Input” and copy and paste the code above into the validator and click `check`. You should receive a few errors. 
   
-8. While our browser was able to interpret this code in the last project, this document does not follow all of the rules of the current version of HTML. HTML is pretty forgiving, but other languages are not, so it’s best to practice following all of the rules from the start.
+16. While our browser was able to interpret this code in the last project, this document does not follow all of the rules of the current version of HTML. 
+
+17. HTML is pretty forgiving, but other languages are not, so it’s best to practice following all of the rules from the start.
 
 <blockquote>Q2: Try to interpret a few of these errors in your own words. In particular, how would you explain the warnings related to character encoding?</blockquote>
 
@@ -232,7 +247,60 @@ Learn more about the `<img>` tag at w3school:  http://www.w3schools.com/tags/tag
 60. View the page in the Replit browser to see if the image has loaded correctly.
 
 <blockquote>Q4: Create another link to another HTML page or image, but save that file in a different directory or folder on your computer. How did you have to modify the HTML to call that file in your webpage? Why?</blockquote>
-  
+
+# Identifying HTML Tables
+ 
+19. HTML uses a few core tags for web pages that include tables.
+- `table` (marks the start and end of a table
+- `tbody` (marks the start and end of the table body)
+- `tr` (marks the start and end of each table row)
+- `th` (marks the start and end of each column in the first row of the table)
+- `td` (marks the start and end of each column after the first row of the table)
+
+20. How we might see those tags combined in a table structure:
+
+```HTML
+<table>
+ <tr>
+  <th>First Column Header</th>
+  <th>Second Column Header</th>
+  <th>Third Column Header</th>
+ </tr>
+ <tr>
+  <td>Data in first column/first row</td>
+  <td>Data in second column/first row</td>
+  <td>Data in third column/first row</td>
+ </tr>
+ <tr>
+  <td>Data in first column/second row</td>
+  <td>Data in second column/second row</td>
+  <td>Data in third column/second row</td>
+ </tr>
+</table>
+```
+
+21. The output of that HTML would look like:
+
+<table>
+ <tr>
+  <th>First Column Header</th>
+  <th>Second Column Header</th>
+  <th>Third Column Header</th>
+ </tr>
+ <tr>
+  <td>Data in first column/first row</td>
+  <td>Data in second column/first row</td>
+  <td>Data in third column/first row</td>
+ </tr>
+ <tr>
+  <td>Data in first column/second row</td>
+  <td>Data in second column/second row</td>
+  <td>Data in third column/second row</td>
+ </tr>
+</table>
+
+22. Additional attributes like `align`, `style`, etc. can be used with many of these tags.
+
 # Using Cascading Style Sheets (CSS)
 
 If you read through the w3schools site, you will see that there is so much more that you can do with HTML. You will have an opportunity to explore on your own in a little bit. 
