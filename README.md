@@ -183,7 +183,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 Some resources that can help you get started:
 <ul>
  <li><a href="https://www.w3schools.com/tags/tag_meta.asp">W3Schools, "HTML Meta Tag"</a></li>
- <li><a href="https://www.w3schools.com/tags/att_meta_charset.asp>W3Schools, "HTML Meta Charset Attribute</a></li>
+ <li><a href="https://www.w3schools.com/tags/att_meta_charset.asp">W3Schools, "HTML Meta Charset Attribute</a></li>
  <li><a href="https://www.w3schools.com/css/css_rwd_viewport.asp">W3Schools, "Response Web Design With Viewport"</a></li>
  </ul>
 </blockquote>
@@ -512,7 +512,7 @@ THIS FIG STAYS
 
 118. Submit the HTML files and relevant CSS as as `.zip` folder on Canvas, along with your answers to lab notebook questions.
 
-<blockquote>Q6: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
+<blockquote>Q10: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
 # Endnotes
 
@@ -526,12 +526,23 @@ All of the required questions are listed here. Be sure to answer each question c
 
 Q1: Describe what you're seeing in the Repl.it IDE. What looks familiar? What is unfamiliar?
 
-Q2: Try to interpret a few of these errors in your own words. In particular, how would you explain the warnings related to character encoding?
+Q2: Try to interpret a few of these errors in your own words. HINT: The W3Schools resources listed under step 15 provide more information or explanation on some of these errors.
 
-Q3: Between the <head> tags, there are also a few <meta> tags. Use the W3C site to translate this information in your notebook.
+Q3: Between the head tags, there are also a few meta tags. Use the W3C site to translate this information in your notebook. Some resources that can help you get started:
+- [W3Schools, "HTML Meta Tag"](https://www.w3schools.com/tags/tag_meta.asp)
+- [W3Schools, "HTML Meta Charset Attribute"](https://www.w3schools.com/tags/att_meta_charset.asp)
+- [W3Schools, "Responsive Web Design With Viewport"](https://www.w3schools.com/css/css_rwd_viewport.asp)
 
-Q4: Create another link to another HTML page or image, but save that file in a different directory or folder on your computer. How did you have to modify the HTML to call that file in your webpage? Why?
-  
-Q5: Take a look at the HTML Colors page listed above. Do you see anything familiar? Describe the way that RGB and Hexadecimal colors work in your own words.
+Q4: If you haven't already, modify index.html to include a link to a second HTML file. Next, add an image to index.html.
 
-Q6: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.
+Q5: Move the image you added in Q4 into the "Images" folder. What happens when you hit "Run"? What would you need to modify in the HTML to correctly display this image? Hint: Refer to step 59 in the lab procedure.
+
+Q6: Add a table to one of your HTML pages (index.html or page2.html). You could create fictional data or add meaningful data from another source. What challenges did you face getting the table to display and function like you expected?
+
+Q7: Take a look at the HTML Colors page listed above. Do you see anything familiar?
+
+Q8: If you haven't already, experiment with modifying your existing HTML pages to include some of these style elements.
+
+Q9: If you haven't already, experiment with creating a CSS and linking it to your HTML pages.
+
+Q10: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.
