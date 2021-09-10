@@ -75,6 +75,11 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - You can delete files by clicking on the three dots next to the file name in the left-hand "Files" pane
 - Do this for all three files
 - Upload the files in the project template
+  * [Link to download template files from Google Drive](https://drive.google.com/file/d/1gKvCyKTzeG5_32zWxtU_VXNOGnmPUWQ6/view?usp=sharing)
+  * You will need to extract the contents of the compressed or zip folder
+    * PC Users: Right click on the zip folder (likely in Downloads) and select "Extract All"
+    * Mac Users: Double click on the downloaded folder (likely in your downloads on the bottom right-hand corner of the screen)
+  * Then once you have the files, you can upload them to Replit
 - Create an "Images" folder
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true" /></a></p>
@@ -506,13 +511,21 @@ THIS FIG STAYS
 
 115. That’s it. You are free to be as creative as you’d like as long as you meet these requirements.
 
-116. I encourage you to use the w3schools pages as a guide for HTML (http://www.w3schools.com/html/) and CSS (http://www.w3schools.com/css/default.asp) as you design your site. 
+116. I encourage you to use the W3Schools pages as a guide for HTML (http://www.w3schools.com/html/) and CSS (http://www.w3schools.com/css/default.asp) as you design your site. 
 
 117. You’ll find tutorials for menus, tables, and other elements to jazz up your site. Feel free to borrow code and CSS from anywhere on the web. Have fun and experiment!
 
 118. Submit the HTML files and relevant CSS as as `.zip` folder on Canvas, along with your answers to lab notebook questions.
 
+119. You can download the entire Replit project by clicking on the "Download as Zip" option under the three dots next to "Files" on the left-hand side of the page.
+
+119. Also include a link to your Replit project workspace. This link is the URL that is active in your browser when you are working on this project in Replit.
+- Link template: `https://replit.com/@USERNAME/PROJECTNAME`
+- The link you copy in from Replit should include your username, followed by the project name (whatever you titled the Repl when you created the workspace)
+
 <blockquote>Q10: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
+
+<blockquote>Q11: Submit the HTML files and relevant CSS as as zip folder on Canvas. See step 119 in the lab procedure includes instructions for downloading these materials from Replit. Include a link to your Repl project and workspace for this lab. See step 120 in the lab procedure for instructions on getting this link.</blockquote>
 
 # Endnotes
 
@@ -546,3 +559,5 @@ Q8: If you haven't already, experiment with modifying your existing HTML pages t
 Q9: If you haven't already, experiment with creating a CSS and linking it to your HTML pages.
 
 Q10: Have you ever created a website before? Have you used a software like WordPress? How is this process different? Reflect on the process of creating a website by working directly with the HTML.
+
+Q11: Submit the HTML files and relevant CSS as as zip folder on Canvas. See step 119 in the lab procedure includes instructions for downloading these materials from Replit. Include a link to your Repl project and workspace for this lab. See step 120 in the lab procedure for instructions on getting this link.
