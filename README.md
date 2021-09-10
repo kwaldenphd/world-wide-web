@@ -40,34 +40,58 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 # Getting Started With Repl.it
 
+FIG B
+
 1. Navigate to https://repl.it/ in a web browser.
+
+FIG C
 
 2. Click the `Sign Up` button in the upper right-hand corner to create a free account using your Notre Dame @nd.edu Gmail.
 - You may also have received an email invitation to join the "Elements of Computing I" team in Replit. Accepting this invitation will also set up a free Replit account.
+
+FIG D
+
+FIG E
 
 3. When logged into Replit, you should see that you are part of the "Elements of Computing I" team/organization.
 
 4. This team workspace includes a template workspace for this lab. Create a copy of the template.
 
+FIG F
+
 5. Otherwise, you will need to click the `New repl` button in the upper left-hand corner to start a new repl.
+
+FIG G
 
 6. If creating a new Repl from scrach, select "HTML/CSS" from the dropdown menu for repl type.
 
 7. Give the project a descriptive and meaningful name.
 - For example `Walden_HTML_CSS_Lab3` 
 
+FIG H
+
+8. If creating a new Repl project from scratch (rather than using the template), you will need to delete all files in the workspace and upload the project files and template.
+- You can delete files by clicking on the three dots next to the file name in the left-hand "Files" pane
+- Do this for all three files
+- Upload the files in the project template
+- Create an "Images" folder
+
+FIG I
+
+9. Whether you create a new Repl or use the existing project template, you'll want to end up with a project workspace that resembles the screenshot above.
+
 <blockquote>Q1: Describe what you're seeing in the Repl.it IDE. What looks familiar? What is unfamiliar? </blockquote>
 
 # What is HTML?
 
-8. HTML stands for HyperText Markup Language
+10. HTML stands for HyperText Markup Language
 
 <blockquote>“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
 
 <ul><li>"Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).</li>
  <li>"HTML is a Language, as it has code-words and syntax like any other language.”</em><sup><a href="#fn1" id="ref1">1</a></sup></li></ul></blockquote>
 
-9. HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
+11. HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
 
 ## Hello World!
 
@@ -77,9 +101,9 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 </html>
 ```
 
-10. This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
+12. This is a very basic HTML document. The HTML tags `<HTML>` identify this document as a html document. The body tags `<body>` enclose the content that will be visible on the page.
    
-11. Download the `hello_world.html` file ([link to Google Drive download, ND users only](https://drive.google.com/drive/folders/1Kw82eAyMXyJdH6stajbH2oFJRMpY2ZCX?usp=sharing)) and open it with the web browser on your computer. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
+13. Download the `hello_world.html` file ([link to Google Drive download, ND users only](https://drive.google.com/drive/folders/1Kw82eAyMXyJdH6stajbH2oFJRMpY2ZCX?usp=sharing)) and open it in a web browser on your computer. You should see just the text “Hello World!” The browser has translated the HTML tags and returned only the text.
 
 12. `helloworld.html` contains the minimum requirements for an HTML document. 
 
@@ -88,176 +112,208 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 14. We can check the well-formed-ness of this document in a validator like the W3C Markup Validation Service https://validator.w3.org. 
 
 15. Click on “Validate by Direct Input” and copy and paste the code above into the validator and click `check`. You should receive a few errors. 
+- [W3Schools, "HTML head tag"](https://www.w3schools.com/tags/tag_head.asp)
+- [W3Schools, "HTML !DOCTYPE Declaration"](https://www.w3schools.com/tags/tag_doctype.asp)
+- [W3Schools, "HTML ISO Language Codes"](https://www.w3schools.com/tags/ref_language_codes.asp)
   
 16. While our browser was able to interpret this code in the last project, this document does not follow all of the rules of the current version of HTML. 
 
 17. HTML is pretty forgiving, but other languages are not, so it’s best to practice following all of the rules from the start.
 
-<blockquote>Q2: Try to interpret a few of these errors in your own words. In particular, how would you explain the warnings related to character encoding?</blockquote>
+<blockquote>Q2: Try to interpret a few of these errors in your own words. HINT: The W3Schools resources listed under step 15 provide more information or explanation on some of these errors.</blockquote>
 
 # Creating an HTML File
 
-9. Let’s make a few modifications to the Hello World file that will make it valid. Navigate to your Lab #4 repl and open the `index.html` document. 
+18. Let’s make a few modifications to the `Hello World` file that will make it valid. Navigate to the Replit project you have created for this lab and open the `index.html` document. 
+
+NOW FIG A
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_1.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_1.png?raw=true" /></a></p>
 
-10. If you compare this blank template to the structure of an html document that you read about from the WC3 this week, you will find all of the required elements in this template. 
+19. If you compare this template to the structure of an html document that you read about from the WC3 this week, you will find all of the required elements in this template. 
 
-11. Repl.it has conveniently highlighted these different elements in different colors so that they can be easily distinguished as you build your html document.
+20. Repl.it has conveniently highlighted these different elements in different colors so that they can be easily distinguished as you build your html document.
 
-12. The red at the top are comments indicated by the `<!-- and -->`. Comments are written for the user and not for the computer. 
+21. The red at the top are comments indicated by the `<!-- and -->`. Comments are written for the user and not for the computer. 
 
-13. These special start and end tags tell the computer to ignore what follows. Comments are used to include instructions and explanations about the code in a human-readable form. 
+22. These special start and end tags tell the computer to ignore what follows. Comments are used to include instructions and explanations about the code in a human-readable form. 
 
-14. Feel free to use comments throughout your code to leave notes for yourself or describe what the code is doing (or what you want it to do).
+23. Feel free to use comments throughout your code to leave notes for yourself or describe what the code is doing (or what you want it to do).
 
-15. Next, in green we have the document type declaration beginning with `<!DOCTYPE`. In this case, the document type is followed by html. This is simply telling the computer that what follows is a HTML document. 
+24. Next, we have the document type declaration beginning with `<!DOCTYPE`. In this case, the document type is followed by `html`. This is simply telling the computer that what follows is a HTML document. 
 
-16. The next piece, `-//W3C//DTD XHTML 1.0 Strict//EN` is the version declaration. 
+25. Next we see the opening HTML tag, but there are a few additional attributes here: `<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">` 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_2.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_2.png?raw=true" /></a></p>
+26. This is just another piece of the XHTML specification. 
 
-17. In this case we are using XHTML. Learn more about the different versions of HTML: https://www.w3schools.com/html/html_intro.asp.
+27. The namespace provides a means of disambiguation between elements with the same name. We won’t run into this issue in this lab. 
 
-18. The final piece of this declaration is the URL for the DTD or Document Type Definition: http://www.w3.org/TR/xhtml1/dtds.html. 
-
-19. This is the data structure or the rules for this version of HTML. Each version will have a different DTD defining the structure and all of the elements and attributes that can be used.
-
-<blockquote>DTD for XHTML 1.0 http://www.w3.org/TR/xhtml1/dtds.html</blockquote>
-
-20. Next we see the opening HTML tag, but there are a few additional attributes here: `<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">` 
-
-21. This is just another piece of the XHTML specification. 
-
-22. The namespace provides a means of disambiguation between elements with the same name. We won’t run into this issue in this lab. 
-
-23. Also note here that the document language is declared as English with the `en` code with a standardized abbreviation for the English language.
+28. Also note here that the document language is declared as English with the `en` code with a standardized abbreviation for the English language.
 
 <blockquote>XHTML 1.0 Documentation http://www.w3.org/TR/xhtml1/</blockquote>
 
+THIS FIG STAYS
+
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true" /></a></p>
 
-24. What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
+29. What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
 
-25. Repl.it has constructed a blank template for us to work from. This html document is well- formed and valid. 
+30. The `index.html` file included in the project template reflects HTML that is well-formed and valid. 
 
-26. We can test this by copying and pasting our file into the HTML Validator. (Go ahead and give it a try https://validator.w3.org). 
+31. We can test this by copying and pasting our file into the HTML Validator. (Go ahead and give it a try https://validator.w3.org). 
 
-27. This is one of the advantages to using and IDE for website development. As you will see in a few moments, Repl.it has a few other features that will help us to create clean, well-formed, and valid HTML documents.
+32. This is one of the advantages to using an IDE for website development. As you will see in a few moments, Repl.it has a few other features that will help us to create well-formed and valid HTML documents.
 
 # Adding Content to `Index.html`
 
-28. At the moment, our document doesn’t have any content – let’s add some.  Between the `<head>` tags you will see a set of `<title>` tags. 
+33. At the moment, our document doesn’t have any content – let’s add some.  Between the `<head>` tags you will see a set of `<title>` tags. 
 
-29. As the diagram illustrates, this data is not presented in the browser. This is true for the most part. 
+34. As the diagram illustrates, this data is not presented in the browser. This is true for the most part. 
 
-30. The `<head>` of the document is reserved for metadata, but also includes the `<title>` of the page which is represented in the tabs in some web browsers. 
+35. The `<head>` of the document is reserved for metadata, but also includes the `<title>` of the page which is represented in the tabs in some web browsers. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_4.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_4.png?raw=true" /></a></p>
+```html
+  <head>
+    <title>YOUR PAGE TITLES GOES HERE</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+  </head>
+```
 
-31. Replace “untitled” between the `<title>` tags to give your document a new title.
+36. Replace “YOUR PAGE TITLE GOES HERE” between the `<title>` tags to give your document a new title.
 
-<blockquote>Q3: Between the head tags, there are also a few meta tags. Use the W3C site to translate this information in your notebook.</blockquote>
+<blockquote>Q3: Between the head tags, there are also a few meta tags. Use the W3C site to translate this information in your notebook.<br>
+Some resources that can help you get started:
+<ul>
+ <li><a href="https://www.w3schools.com/tags/tag_meta.asp">W3Schools, "HTML Meta Tag"</a></li>
+ <li><a href="https://www.w3schools.com/tags/att_meta_charset.asp>W3Schools, "HTML Meta Charset Attribute</a></li>
+ <li><a href="https://www.w3schools.com/css/css_rwd_viewport.asp">W3Schools, "Response Web Design With Viewport"</a></li>
+ </ul>
+</blockquote>
   
-32. Now, let’s modify the body. This is where the content that we will see in the web browser is entered. 
+37. Now, let’s modify the body. This is where the content that we will see in the web browser is entered. 
 
-33. HTML uses a number of different formatting tags. You can use the W3C site to browse through all of the different options. 
+38. HTML uses a number of different formatting tags. You can use the W3Schools ["HTML Reference"](https://www.w3schools.com/tags/default.asp) to browse through some of the different options. 
 
-34. For now, we’ll use `<h1>` and `<p>`.
+39. For now, we’ll use `<h1>` and `<p>`.
 
-35. After the first `<body>` tag, place a `<h1>` tag on a new line. 
+40. After the first `<body>` tag, place a `<h1>` tag on a new line. 
 
-36. Notice two things:
+41. Notice two things:
   * The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the `<title>` and `<meta>` tags are nested within the `<head>` tags. Now, our `<h1>` is nested within the `<body>`. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).
 
   * Repl.it has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. IDEs like Repl.it provide this function to help you prevent errors in your code and create valid documents.
 
+THIS FIG STAYS
+
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
 
-37. Go ahead and enter some content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. Next add a `<p>` tag and type some text. `<p>` tags are preformatted as paragraphs with padding between paragraphs.
+42. Go ahead and enter some content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
 
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
 
-38. Repl.it has another function that will be helpful as we develop our websites. Click the `Run` button and your `.html` document will display in Repl.it's web browser.
+43. Next add a `<p>` tag and type some text. `<p>` tags are preformatted as paragraphs with padding between paragraphs.
 
-39. At any time you can check the way that your code will render clicking `Run`. 
+NOW FIG J
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
+
+44. Repl.it has another function that will be helpful as we develop our websites. Click the `Run` button and your `.html` document will display in Replit's web browser.
+
+45. At any time you can check the way that your code will render clicking `Run`. 
 
 <blockquote>Repl.it will auto-save your work (like Google Docs). For other IDEs, you can press <code>Control + S</code> to save file updates.</blockquote>
 
-40. Save the file in a dedicated new folder for this project, and call it `index.html.`
+46. Save the file in a dedicated new folder for this project, and call it `index.html.`
 
 <blockquote>Why <code>index.html</code>? <code>index.html</code> is the name of the default landing page for websites. The web server (the computer hosing the site) will automatically recognize <code>index.html</code> as the first page or the home page of a website. Some servers use other variations like <code>home.html</code>, but we’ll use <code>index.html</code>.</blockquote>
 
 # Building Additional Web Pages
 
-41. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
+47. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
-42. Let’s create a second `.html` file by clicking on the `+` "Add File" icon in the upper left-hand corner. 
+NOW FIG L
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
 
-43. Save this file as `page2.html`. 
+48. Let’s create a second `.html` file by clicking on the `+` "Add File" icon in the upper left-hand corner. 
 
-44. Now add some content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
+49. Save this file as `page2.html`. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_9.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_9.jpg?raw=true" /></a></p>
+50. We can copy the HTML from `index.html` to make sure we're starting with an HTML document that is well-formed and valid.
+
+NOW FIG K
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
+
+51. Now add some content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
 
 # Creating Links in HTML
 
-45. Now, let’s add a link to the second page on our `index.html` page. 
+52. Now, let’s add a link to the second page on our `index.html` page. 
 
-46. We add links with the `<a href>` tag. This tag allows us to link pages in the same website and link out to pages that exist on external websites.
+53. We add links with the `<a href>` tag. This tag allows us to link pages in the same website and link out to pages that exist on external websites.
 
-47. The tag syntax is as follows: `<a href=”URL to page”>`Text that you would like to appear`</a>`. 
+54. The tag syntax is as follows: `<a href="URL to page">Text that will appear as the link</a>`. 
   
-48. Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
+55. Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
+- Learn more about the `<a href>` tag via W3Schools: http://www.w3schools.com/TAGS/att_a_href.asp
 
-Learn more about the `<a href>` tag at w3school: http://www.w3schools.com/TAGS/att_a_href.asp</blockquote>
-
+THIS FIG STAYS
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true" /></a></p>
 
-49. Go ahead and open `index.html` by pressing F5 or opening it in your browser to see what our new link looks like. 
+56. Run `index.html` to see the updated file with a link. 
 
-50. When you click on “Link to page 2” your `page2.html` file should open. In this case, our URL to the page in our `<a href>` tags is just the name of new page we created. 
+57. When you click on “Link to page 2” your `page2.html` file should open. In this case, our URL to the page in our `<a href>` tags is just the name of new page we created. 
 
-51. We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our server (the repl). 
+58. We do not need a full URL (http://www.somewhere.com) because we are calling a file that is stored in the same directory on our server (the repl). 
 
-52. If we had saved this file to another folder or directory, we would put the file path here.
+59. If we had saved this file to another folder or directory, we would need to include the full file path, including any directory information.
+- For example if we had put `page2.html` in a folder titled "Page_Two," the `a href` tag would look like `<a href="Page_Two/page2.html">`.
 
 # Adding Images in HTML
 
-53. Let’s add an image to the `index.html` page. Find an image that you like on the web, save it to your local computer, and upload the file to your repl. 
+60. Let’s add an image to the `index.html` page. 
 
-54. The `<img>` tag is very similar to the `<a href>` tag that we just used. 
-
-55. The tag has two required attributes `src` or the source and `alt` or the alternative text for the image. 
-
-56. The `src` can be a local file or a URL to an image on the web, just like the href attribute in the `<a href>` tag. 
-
-57. The `alt` is for the alternative text or the text that is displayed for screen readers or browsers like lynx that don’t support images. 
-
-Learn more about the `<img>` tag at w3school:  http://www.w3schools.com/tags/tag_img.asp</blockquote>
-
+FIG I
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_11.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_11.jpg?raw=true" /></a></p>
 
-58. On your `index.html` page, add the line `<img src=”imagefilename” alt=Description of image>`.
+61. Find an image that you like on the web, save it to your local computer, and upload the file to your repl. 
 
-59. Be sure to use your image file name in place of the italicized text above. 
+62. The `<img>` tag is very similar to the `<a href>` tag that we just used. 
+- Learn more about the `<img>` tag via W3Schools:  http://www.w3schools.com/tags/tag_img.asp
 
+63. The tag has two required attributes:
+- `src` or the source
+-  `alt` or the alternative text for the image
+
+64. The `src` can be a local file or a URL to an image on the web, just like the href attribute in the `<a href>` tag. 
+
+65. The `alt` is for the alternative text or the text that is displayed for screen readers or browsers like lynx that don’t support images. 
+
+FIG M
+<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_11.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_11.jpg?raw=true" /></a></p>
+
+66. On your `index.html` page, add the line `<img src="imagefilename" alt=Description of image>` in the `<body>`.
+
+67. Be sure to use your image file name in place of the italicized text above. 
+
+THIS FIG STAYS
 <p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true" /></a></p>
 
-60. View the page in the Replit browser to see if the image has loaded correctly.
+68. View the page in the Replit browser to see if the image has loaded correctly.
 
-<blockquote>Q4: Create another link to another HTML page or image, but save that file in a different directory or folder on your computer. How did you have to modify the HTML to call that file in your webpage? Why?</blockquote>
+<blockquote>Q4: If you haven't already, modify index.html to include a link to a second HTML file. Next, add an image to index.html.</blockquote>
+
+<blockquote>Q5: Move the image you added in Q4 into the "Images" folder. What happens when you hit "Run"? What would you need to modify in the HTML to correctly display this image? Hint: Refer to step 59 in the lab procedure.</blockquote>
 
 # Identifying HTML Tables
  
-19. HTML uses a few core tags for web pages that include tables.
+69. HTML uses a few core tags for web pages that include tables.
 - `table` (marks the start and end of a table
 - `tbody` (marks the start and end of the table body)
 - `tr` (marks the start and end of each table row)
 - `th` (marks the start and end of each column in the first row of the table)
 - `td` (marks the start and end of each column after the first row of the table)
 
-20. How we might see those tags combined in a table structure:
+70. How we might see those tags combined in a table structure:
 
 ```HTML
 <table>
@@ -279,7 +335,7 @@ Learn more about the `<img>` tag at w3school:  http://www.w3schools.com/tags/tag
 </table>
 ```
 
-21. The output of that HTML would look like:
+71. The output of that HTML would look like:
 
 <table>
  <tr>
@@ -299,7 +355,13 @@ Learn more about the `<img>` tag at w3school:  http://www.w3schools.com/tags/tag
  </tr>
 </table>
 
-22. Additional attributes like `align`, `style`, etc. can be used with many of these tags.
+73. Additional attributes like `align`, `style`, etc. can be used with many of these tags.
+
+74. For more on building tables in HTML:
+- [W3Schools, "HTML Tables"](https://www.w3schools.com/html/html_tables.asp)
+- [W3Schools, "HTML table tag"](https://www.w3schools.com/tags/tag_table.asp)
+
+<blockquote>Q6: Add a table to one of your HTML pages (index.html or page2.html). You could create fictional data or add meaningful data from another source. What challenges did you face getting the table to display and function like you expected?</blockquote> 
 
 # Using Cascading Style Sheets (CSS)
 
