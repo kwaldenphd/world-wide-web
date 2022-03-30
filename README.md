@@ -41,35 +41,35 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 # Getting Started With Repl.it
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_B.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_B.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_B.png?raw=true"></p>
 
 1. Navigate to https://repl.it/ in a web browser.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_C.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_C.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_C.png?raw=true"></p>
 
 2. Click the `Sign Up` button in the upper right-hand corner to create a free account using your Notre Dame @nd.edu Gmail.
 - You may also have received an email invitation to join the "Elements of Computing I" team in Replit. Accepting this invitation will also set up a free Replit account.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_D.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_D.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_D.png?raw=true"></p>
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_E.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_E.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_E.png?raw=true"></p>
 
 3. When logged into Replit, you should see that you are part of the "Elements of Computing I" team/organization.
 
 4. This team workspace includes a template workspace for this lab. Create a copy of the template.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_F.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_F.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_F.png?raw=true"></p>
 
 5. Otherwise, you will need to click the `New repl` button in the upper left-hand corner to start a new repl.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_G.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_G.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_G.png?raw=true"></p>
 
 6. If creating a new Repl from scrach, select "HTML/CSS" from the dropdown menu for repl type.
 
 7. Give the project a descriptive and meaningful name.
 - For example `Walden_HTML_CSS_Lab3` 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_H.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_H.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_H.png?raw=true"></p>
 
 8. If creating a new Repl project from scratch (rather than using the template), you will need to delete all files in the workspace and upload the project files and template.
 - You can delete files by clicking on the three dots next to the file name in the left-hand "Files" pane
@@ -82,7 +82,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
   * Then once you have the files, you can upload them to Replit
 - Create an "Images" folder
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_I.png?raw=true"></p>
 
 9. Whether you create a new Repl or use the existing project template, you'll want to end up with a project workspace that resembles the screenshot above.
 
@@ -128,7 +128,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 18. Let’s make a few modifications to the `Hello World` file that will make it valid. Navigate to the Replit project you have created for this lab and open the `index.html` document. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_A.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_A.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_A.png?raw=true"></p>
 
 19. If you compare this template to the structure of an html document that you read about from the WC3 this week, you will find all of the required elements in this template. 
 
@@ -152,7 +152,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 <blockquote>XHTML 1.0 Documentation http://www.w3.org/TR/xhtml1/</blockquote>
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_3.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_3.png?raw=true"></p>
 
 29. What follows are the tags that define the structure of a basic HTML document as illustrated in the W3C reading this week.
 
@@ -201,15 +201,15 @@ Some resources that can help you get started:
 - The line is indented. This isn’t a requirement of HTML, but it is a convention that is used by coders to write cleaner code. The indentation allows you to easily determine what tags are nested within each other. For example, the `<title>` and `<meta>` tags are nested within the `<head>` tags. Now, our `<h1>` is nested within the `<body>`. The use of the tabs simply makes the code easier for us to read, but the computer doesn’t care (with Python the indentation is important and will cause errors if the indents do not appear in the right place).
 - Repl.it has completed your `<h1>` with a closing `</h1>` tag. The closing tag is not required for all HTML tags, but it is good practice to close all of your tags. This is a good example. Without a closing tag, everything that follows will be formatted as a `<h1>`. IDEs like Repl.it provide this function to help you prevent errors in your code and create valid documents.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_5.jpg?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_5.jpg?raw=true"></p>
 
 42. Go ahead and enter some content between the `<h1>` tags. `<h1>` is preformatted as first level heading text. We’ll see how it looks in a minute. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_6.jpg?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_6.png?raw=true"></p>
 
 43. Next add a `<p>` tag and type some text. `<p>` tags are preformatted as paragraphs with padding between paragraphs.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_J.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_J.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_J.png?raw=true"></p>
 
 44. Repl.it has another function that will be helpful as we develop our websites. Click the `Run` button and your `.html` document will display in Replit's web browser.
 
@@ -225,7 +225,7 @@ Some resources that can help you get started:
 
 47. What we have just created is a single web page. If we want to build a web site, we have to link this page to additional pages of content. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_L.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_L.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_L.png?raw=true"></p>
 
 48. Let’s create a second `.html` file by clicking on the `+` "Add File" icon in the upper left-hand corner. 
 
@@ -233,7 +233,7 @@ Some resources that can help you get started:
 
 50. We can copy the HTML from `index.html` to make sure we're starting with an HTML document that is well-formed and valid.
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_K.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_K.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_K.png?raw=true"></p>
 
 51. Now add some content to your second page. Be sure to add a title, `<h1>` and `<p>` tags. 
 
@@ -248,7 +248,7 @@ Some resources that can help you get started:
 55. Below your paragraph tag on the `index.html` page add the line `<a href=”page2.html”>Link to page 2</a>.`
 - Learn more about the `<a href>` tag via W3Schools: http://www.w3schools.com/TAGS/att_a_href.asp
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_10.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_10.png?raw=true"></p>
 
 56. Run `index.html` to see the updated file with a link. 
 
@@ -263,7 +263,7 @@ Some resources that can help you get started:
 
 60. Let’s add an image to the `index.html` page. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_I.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_I.png?raw=true"></p>
 
 61. Find an image that you like on the web, save it to your local computer, and upload the file to your repl. 
 
@@ -278,13 +278,13 @@ Some resources that can help you get started:
 
 65. The `alt` is for the alternative text or the text that is displayed for screen readers or browsers like lynx that don’t support images. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_M.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Fig_M.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_M.png?raw=true"></p>
 
 66. On your `index.html` page, add the line `<img src="imagefilename" alt=Description of image>` in the `<body>`.
 
 67. Be sure to use your image file name in place of the italicized text above. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_12.jpg?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_12.jpg?raw=true"></p>
 
 68. View the page in the Replit browser to see if the image has loaded correctly.
 
@@ -357,7 +357,7 @@ Some resources that can help you get started:
 
 76. We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_13.jpg?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_13.jpg?raw=true"></p>
 
 77. We can add style to individual HTML element tags using `style` attributes.
 
@@ -421,7 +421,7 @@ Some resources that can help you get started:
 
 93. The CSS file doesn’t contain any content, it only defines the styles for the various elements in HTML files. 
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_15.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_15.png?raw=true"></p>
 
 94. Let's get started by adding a few styles for the background, `<h1>`, and `<p>`. 
 
@@ -472,8 +472,7 @@ p {
 
 105. To learn more about the `<link rel>` tag: http://www.w3schools.com/tags/att_link_rel.asp
 
-THIS FIG STAYS
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_17.jpg?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_17.jpg?raw=true"></p>
 
 106. Open the `index.html` file in the Replit browser to see the updated CSS.
 
