@@ -384,7 +384,7 @@ Some resources that can help you get started:
 </body>
 ```
 
-<p align="center"><a href="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_14.png?raw=true"><img class="aligncenter" src="https://github.com/kwaldenphd/HTML-CSS/blob/master/images/Image_14.png?raw=true" /></a></p>
+<p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Image_14.png?raw=true"></p>
 
 83. We can see how the style attributes are changing how the web page content displays:
 - The `<h1>` heading has has a blue text color and is center-aligned
