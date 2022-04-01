@@ -9,8 +9,6 @@ Over the next few weeks we are going to complete a number of programming project
 
 <blockquote>Integrated Development Environment (IDE): a software application that provides comprehensive facilities to computer programmers for software development. An IDE normally consists of a source code editor, build automation tools and a debugger. Most modern IDEs have intelligent code completion. Some IDEs, such as NetBeans and Eclipse, contain a compiler, interpreter, or both; others, such as SharpDevelop and Lazarus, do not (<a href="https://en.wikipedia.org/wiki/Integrated_development_environment">Wikipedia</a>).</blockquote>
 
-[Link to lab notebook template](https://docs.google.com/document/d/1r92sHMZ5Ok137qbfPkK1Z9-zedyIeaXn6z1hniHCnOc/copy) (ND users, Google Doc).
-
 ## Lab Objectives
 
 By the end of this lab you will be able to:
@@ -18,11 +16,27 @@ By the end of this lab you will be able to:
 -	Use the Repl.it IDE to generate HTML pages that include links, images, and tables
 -	Use the Repl.it IDE to generate CSS stylesheets to format your HTML pages
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b97e97e-8ba5-4c43-910e-ad8201619d41">Lab overview</a></td>
+  </tr>
+  </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=faf4d4ca-9183-47c2-aaa0-ae5101780d43">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
+
 ## Acknowledgements
 
 This lab is based on the "Project 3: HTML/CSS" project materials developed by [Lindsay K. Mattock](http://lindsaymattock.net/) for the the [SLIS 5020 Computing Foundations course](http://lindsaymattock.net/computingfoundations.html). 
 
 # Table of Contents
+- [Lecture and Live Coding](#lecture-and-live-coding)
+- [Lab Notebook Template](#lab-notebook-template)
 - [Getting Started With Repl.it](#getting-started-with-replit)
 - [What is HTML?](#what-is-html)
   * [Hello World!](#hello-world)
@@ -36,10 +50,44 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - [Using Cascading Style Sheets](#using-cascading-style-sheets-css)
   * [Creating and Implementing CSS](#creating-and-implementing-css)
 - [Creating a Website](#creating-a-website)
-- [Endnotes](#endnotes)
 - [Lab Questions](#lab-questions)
 
+# Lecture and Live Coding
+
+Throughout this lab, you will see a Panopto icon at the start of select sections.
+
+This icon indicates there is lecture/live coding asynchronous content that accompanies this section of the lab. 
+
+You can click the link in the figure caption to access these materials (ND users only).
+
+Example:
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+  <td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b97e97e-8ba5-4c43-910e-ad8201619d41">Lab overview</a></td>
+  </tr>
+  </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?pid=faf4d4ca-9183-47c2-aaa0-ae5101780d43">Lecture/live coding playlist</a></td>
+  </tr>
+  </table>
+
+# Lab Notebook Template
+
+[Link to lab notebook template](https://docs.google.com/document/d/1r92sHMZ5Ok137qbfPkK1Z9-zedyIeaXn6z1hniHCnOc/copy) (ND users, Google Doc).
+
 # Getting Started With Repl.it
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=fa568a77-978f-450c-a639-ad47010bb033">IDE Overview</a></td>
+  </tr>
+  </table>  
 
 <p align="center"><img src="https://github.com/kwaldenphd/HTML-CSS/blob/main/images/Fig_B.png?raw=true"></p>
 
@@ -90,12 +138,27 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 
 # What is HTML?
 
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=1d09f205-548a-4707-873f-ad470105e4aa">Introduction to Markup Languages</a></td>
+  </tr>
+  </table>
+  
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=9b97e97e-8ba5-4c43-910e-ad8201619d41">HTML Overview</a></td>
+  </tr>
+  </table>  
+
 10. HTML stands for HyperText Markup Language
 
-<blockquote>“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.
+<blockquote><p>“HyperText is the method by which you move around on the web — by clicking on special text called hyperlinks which bring you to the next page. The fact that it is hyper just means it is not linear — i.e. you can go to any place on the Internet whenever you want by clicking on links — there is no set order to do things in.</p>
 
-<ul><li>"Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example).</li>
- <li>"HTML is a Language, as it has code-words and syntax like any other language.”</em><sup><a href="#fn1" id="ref1">1</a></sup></li></ul></blockquote>
+<p>"Markup is what HTML tags do to the text inside them. They mark it as a certain type of text (italicised text, for example). HTML is a Language, as it has code-words and syntax like any other language.”</p>
+
+<p>Source: Ross Shannon, "<a href="https://www.yourhtmlsource.com/starthere/whatishtml.html">What is HTML?</a>" <em>HTML Source</em> (21 August 2012)</p></blockquote>
 
 11. HTML is all about sharing, storing, and accessing information. HTML provides the background for the World Wide Web.
 
@@ -514,17 +577,13 @@ p {
 
 119. You can download the entire Replit project by clicking on the "Download as Zip" option under the three dots next to "Files" on the left-hand side of the page.
 
-119. Also include a link to your Replit project workspace. This link is the URL that is active in your browser when you are working on this project in Replit.
+120. Also include a link to your Replit project workspace. This link is the URL that is active in your browser when you are working on this project in Replit.
 - Link template: `https://replit.com/@USERNAME/PROJECTNAME`
 - The link you copy in from Replit should include your username, followed by the project name (whatever you titled the Repl when you created the workspace)
 
 <blockquote>Q10: Have you ever created a website before? Have you used a program like WordPress, Wix, SquareSpace, or Weebly? How is this process different? Reflect on the process of creating a website by working directly with the HTML.</blockquote>
 
 <blockquote>Q11: Submit the HTML files and relevant CSS as as zip folder on Canvas. See step 119 in the lab procedure includes instructions for downloading these materials from Replit. Include a link to your Repl project and workspace for this lab. See step 120 in the lab procedure for instructions on getting this link.</blockquote>
-
-# Endnotes
-
-<sup id="fn1">1. “What is HTML?” http://www.yourhtmlsource.com/starthere/whatishtml.html.<a href="#ref11" title="Jump back to footnote 1 in the text.">↩</a></sup>
 
 # Lab Questions
 
