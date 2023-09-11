@@ -1,4 +1,4 @@
-# Web Content & The World Wide Web
+# The World Wide Web
 
 <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license"><img style="border-width: 0;" src="https://i.creativecommons.org/l/by-nc/4.0/88x31.png" alt="Creative Commons License" /></a>This tutorial was written by Katherine Walden and is licensed under a <a href="http://creativecommons.org/licenses/by-nc/4.0/" rel="license">Creative Commons Attribution-NonCommercial 4.0 International License</a>.
 
@@ -25,17 +25,17 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - [Key Concepts](#key-concepts)
 - [Lab Notebook Template](#lab-notebook-template)
 - [The World Wide Web](the-world-wide-web)
-- [Getting Started With Repl.it](#getting-started-with-replit)
-- [Well-Formed HTML](#well-formed-html)
-- [Building Web Pages](#building-web-pages)
-- [Link Web Pages](#linking-web-pages)
-- [Adding Images](#adding-images)
-- [Building Tables](#building-tables)
-- [Style & Formatting](#style--formatting)
-  * [Cascading Style Sheets (CSS)](#cascading-style-sheets-css)
-- [Putting It All Together](#putting-it-all-together)
-- [HTML/CSS Lab Notebook Questions](#htmlcss-lab-notebook-questions)
+- [Building Content For the Web](#building-content-for-the-web)
+  * [Well-Formed HTML](#well-formed-html)
+  * [Building Web Pages](#building-web-pages)
+  * [Link Web Pages](#linking-web-pages)Adding
+  * [Adding Images](#adding-images)
+  * [Building Tables](#building-tables)
+  * [Style & Formatting](#style--formatting)
+    * [Cascading Style Sheets (CSS)](#cascading-style-sheets-css)
+- [Application](#application)
 - [Additional Resources](#additional-resources)
+- [Lab Notebook Questions](#lab-notebook-questions)
 
 # Lecture & Live Coding
 
@@ -60,7 +60,7 @@ Example:
 
 ## Lab Notebook Template
 
-[Link to lab notebook template](https://docs.google.com/document/d/1r92sHMZ5Ok137qbfPkK1Z9-zedyIeaXn6z1hniHCnOc/copy) (ND users, Google Doc).
+[Link to Replit workspace template](https://replit.com/team/eoc-f22/HTMLCSSLab) (ND users, Replit)
 
 # The World Wide Web 
 
@@ -124,7 +124,7 @@ Example:
   </tr>
   </table>
 
-## Building Content For the Web
+# Building Content For the Web
 
 - [Well-Formed HTML](#well-formed-html)
 - [Building Web Pages](#building-web-pages)
@@ -141,7 +141,7 @@ Example:
 
 REPLIT TEMPLATE
 
-### Well-Formed HTML
+## Well-Formed HTML
 
 Create a `.txt` file on your computer and add the text listed below. Save the file as `hello-world.html` and open it in a web browser.
 
@@ -178,7 +178,7 @@ A few other pieces of information Replit has added to this page so we have valid
 - The opening `<html>` tag marks the start of the page/document
 - We also have additional information like XHTML specification, namespace, and document language (`en`)
 
-### Building Web Pages
+## Building Web Pages
 
 <p align="center"><img src="https://github.com/kwaldenphd/internet/blob/main/images/HTML_Page_Structure.png?raw=true" width="500"></p>
 
@@ -228,7 +228,7 @@ We can copy the HTML from `index.html` to make sure we're starting with an HTML 
 
 Add some content to your second page, starting with a title, `<h1>` and `<p>` tags. 
 
-### Linking Web Pages
+## Linking Web Pages
 
 Now, let’s add a link to the second page on our `index.html` page. We add links with the `<a>` tag and the `href` attribute. The `a` tag defines a hyperlink, and the `href` attribute shows the link destination.`<a href>` tag. This tag allows us to link pages in the same website and link out to pages that exist on external websites.
 
@@ -244,7 +244,7 @@ Run `index.html` to see the updated file with a link. When you click on “Link 
 
 If we had saved this file to another folder or directory, we would need to include the full file path, including any directory information. For example if we had put `page2.html` in a folder titled "pages," the `a href` tag would look like `<a href="pages/page2.html">`.
 
-### Adding Images
+## Adding Images
 
 Let’s add an image to the `index.html` page. 
 
@@ -273,7 +273,7 @@ At this point, our website project only has one image. If we end up using multip
 Create an `images` folder and move your single image file into the folder. What happens when you hit `Run`? What would you need to modify in the HTML to correctly display this image?
 - HINT: Think about absolute versus relative file paths.
 
-### Building Tables
+## Building Tables
 
 HTML uses a few core tags for web pages that include tables.
 - `table` (marks the start and end of a table
@@ -330,7 +330,7 @@ Additional attributes like `align`, `style`, etc. can be used with many of these
 
 Add a table to one of your HTML pages (index.html or page2.html). You could create fictional data or add meaningful data from another source.
 
-### Style & Formatting
+## Style & Formatting
 
 HTML allows us to add style to our pages internally, or inline, using HTML tags. We’ve already styled our pages a bit using the `<h1>` tag. `<h1>` designates preformatted text that is larger than the `<p>` or paragraph text. But, what if we want to add color or change the font on our page? 
 
@@ -371,7 +371,7 @@ Take a look at the W3Schools [HTML Colors](https://www.w3schools.com/html/html_c
 
 If you haven't already, experiment with modifying your existing HTML pages to include some of these (or other) style elements.
 
-#### Cascading Style Sheets (CSS)
+### Cascading Style Sheets (CSS)
 
 You can customize HTML using style attributes, but imagine you want all instances of the `<h1>` or `<p>` tag in your website to have the same formatting. Doing this with `style` would require adding code every time you use these elements.
 
@@ -434,7 +434,7 @@ Run the `index.html` file in the Replit browser to see the updated CSS. However,
 
 If you haven't already, experiment with creating a CSS and linking it to your HTML pages.
 
-## Application
+# Application
 
 Now it's your turn. The lab procedure has covered the tools you can use to get started, but you can also expand on what you've learned using the W3Schools HTML and CSS resources and documentation (be sure to cite resources you consult or reference- a list of URLs is fine). You're welcome to use or reuse the HTML/CSS content you created in the last section of the lab.
 
@@ -460,9 +460,7 @@ That’s it. You are free to be as creative as you’d like as long as you meet 
   </tr>
   </table>
 
-All the materials for your website (`.html`, `.css`, and image files) can be submitted on Canvas as a single `.zip` folder on Canvas, along with your answers to lab notebook questions.
-
-You can download the entire Replit project by clicking on the "Download as Zip" option under the three dots next to "Files" on the left-hand side of the page.
+All the materials for your website (`.html`, `.css`, and image files) can be submitted as a single `.zip` folder on Canvas. You can download the entire Replit project by clicking on the `Download as Zip` option under the three dots next to `Files` on the left-hand side of the page.
 
 Also include a link to your Replit project workspace. This link is the URL that is active in your browser when you are working on this project in Replit.
 - Link template: `https://replit.com/@USERNAME/PROJECTNAME`
@@ -478,6 +476,8 @@ Interested in learning more about computer networks and the World Wide Web? The 
 
 # Lab Notebook Questions
 
+[Link to Replit workspace template](https://replit.com/team/eoc-f22/HTMLCSSLab) (ND users, Replit)
+
 Q1: Include the website you built using HTML and CSS as part of your lab submission. Include a single `.zip` folder as well as a link to the Replit workspace for the website.
 
 Website components:
@@ -485,3 +485,16 @@ Website components:
 - At least one image
 - At least one external link
 - At least one table
+
+<table>
+ <tr><td>
+<img src="https://elearn.southampton.ac.uk/wp-content/blogs.dir/sites/64/2021/04/PanPan.png" alt="Panopto logo" width="50"/></td>
+<td><a href="https://notredame.hosted.panopto.com/Panopto/Pages/Viewer.aspx?id=f9d0322b-e52a-46cc-a7ad-af18015ab0a1">Submitting your website</a></td>
+  </tr>
+  </table>
+
+All the materials for your website (`.html`, `.css`, and image files) can be submitted as a single `.zip` folder on Canvas. You can download the entire Replit project by clicking on the `Download as Zip` option under the three dots next to `Files` on the left-hand side of the page.
+
+Also include a link to your Replit project workspace. This link is the URL that is active in your browser when you are working on this project in Replit.
+- Link template: `https://replit.com/@USERNAME/PROJECTNAME`
+- The link you copy in from Replit should include your username, followed by the project name
