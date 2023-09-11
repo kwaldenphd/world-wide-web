@@ -113,7 +113,7 @@ Example:
 **Cascading Style Sheets (CSS)**
 - "Cascading Style Sheets (CSS) is a style sheet language used for describing the presentation of a document written in a markup language such as HTML or XML" ([Wikipedia](https://en.wikipedia.org/wiki/CSS))
 
-[Click here](https://github.com/kwaldenphd/internet/blob/main/key-concepts.md) for a full list of key concepts and definitions for this lab.
+[Click here](https://github.com/kwaldenphd/world-wide-web/blob/main/key-concepts.md) for a full list of key concepts and definitions for this lab.
 
 ## Comprehension Check
 
@@ -124,7 +124,7 @@ Example:
   </tr>
   </table>
 
-# Building Content For the Web
+# Tutorial: Building Content For the Web
 
 - [Well-Formed HTML](#well-formed-html)
 - [Building Web Pages](#building-web-pages)
