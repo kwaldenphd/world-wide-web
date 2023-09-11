@@ -60,7 +60,7 @@ Example:
 
 ## Lab Notebook Template
 
-[Link to Replit workspace template](https://replit.com/team/eoc-f22/HTMLCSSLab) (ND users, Replit)
+[Link to Replit workspace template](https://replit.com/team/eoc-f23/Buliding-Web-Content) (ND users, Replit)
 
 # The World Wide Web 
 
@@ -436,6 +436,8 @@ If you haven't already, experiment with creating a CSS and linking it to your HT
 
 # Application
 
+[Link to Replit workspace template](https://replit.com/team/eoc-f23/Buliding-Web-Content) (ND users, Replit)
+
 Now it's your turn. The lab procedure has covered the tools you can use to get started, but you can also expand on what you've learned using the W3Schools HTML and CSS resources and documentation (be sure to cite resources you consult or reference- a list of URLs is fine). You're welcome to use or reuse the HTML/CSS content you created in the last section of the lab.
 
 For now, your site needs to fit a few minimum requirements. 
@@ -476,7 +478,7 @@ Interested in learning more about computer networks and the World Wide Web? The 
 
 # Lab Notebook Questions
 
-[Link to Replit workspace template](https://replit.com/team/eoc-f22/HTMLCSSLab) (ND users, Replit)
+[Link to Replit workspace template](https://replit.com/team/eoc-f23/Buliding-Web-Content) (ND users, Replit)
 
 Q1: Include the website you built using HTML and CSS as your lab submission. Include a single `.zip` folder as well as a link to the Replit workspace for the website.
 
