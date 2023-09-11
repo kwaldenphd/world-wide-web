@@ -478,7 +478,7 @@ Interested in learning more about computer networks and the World Wide Web? The 
 
 [Link to Replit workspace template](https://replit.com/team/eoc-f22/HTMLCSSLab) (ND users, Replit)
 
-Q1: Include the website you built using HTML and CSS as part of your lab submission. Include a single `.zip` folder as well as a link to the Replit workspace for the website.
+Q1: Include the website you built using HTML and CSS as your lab submission. Include a single `.zip` folder as well as a link to the Replit workspace for the website.
 
 Website components:
 - At least two pages (`index.html` and something else)
