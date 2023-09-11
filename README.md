@@ -28,7 +28,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - [Building Content For the Web](#building-content-for-the-web)
   * [Well-Formed HTML](#well-formed-html)
   * [Building Web Pages](#building-web-pages)
-  * [Link Web Pages](#linking-web-pages)Adding
+  * [Link Web Pages](#linking-web-pages)
   * [Adding Images](#adding-images)
   * [Building Tables](#building-tables)
   * [Style & Formatting](#style--formatting)
