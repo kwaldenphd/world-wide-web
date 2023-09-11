@@ -25,7 +25,7 @@ This lab is based on the "Project 3: HTML/CSS" project materials developed by [L
 - [Key Concepts](#key-concepts)
 - [Lab Notebook Template](#lab-notebook-template)
 - [The World Wide Web](the-world-wide-web)
-- [Building Content For the Web](#building-content-for-the-web)
+- [Tutorial: Building Content For the Web](#tutorial-building-content-for-the-web)
   * [Well-Formed HTML](#well-formed-html)
   * [Building Web Pages](#building-web-pages)
   * [Link Web Pages](#linking-web-pages)
